@@ -1,0 +1,217 @@
+p, h1, div, img, body {
+    margin: 0;
+    padding: 0
+}
+
+.Header {
+    height: 70px;
+    background: cornflowerblue;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.first {
+    width: 100%;
+    height: 200px;
+    background: #4a82e5;
+}
+
+.first .first-one {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.first .first-one img {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.first > .first-one > p {
+    height: 40px;
+    color: #ffa500;
+    font-size: 24px;
+    text-align: center;
+    margin-top: -150px;
+}
+
+
+.second {
+    width: 100%;
+    height: 50px;
+    background: #4a82e5;
+    margin: 0 auto;
+}
+
+.second-one {
+    width: 1200px;
+    height: 50px;
+    background: #4a82e5;
+    margin: 0 auto;
+}
+
+.second-one .left {
+    width: 150px;
+    height: 50px;
+    /*background: cornflowerblue;*/
+    float: left;
+    margin-left: 50px;
+    font-size: 24px;
+    color: white;
+    line-height: 50px;
+}
+
+.second-one .right {
+    width: 150px;
+    height: 50px;
+    /*background: cornflowerblue;*/
+    float: right;
+    margin-right: 50px;
+    font-size: 18px;
+    color: white;
+    line-height: 50px;
+}
+
+.second-one .center {
+    float: right;
+    margin-right: -105px;
+    margin-top: 7px;
+}
+
+.third {
+    width: 1200px;
+    height: 300px;
+    background: #ffa500;
+    margin: 0 auto;
+}
+
+.third > p {
+    font-size: 24px;
+    color: #256dec;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.third hr {
+    width: 500px;
+    border: 0.5px #4a82e5 solid;
+}
+
+.third .third-one {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    height: 200px;
+    background: #ffa500;
+}
+
+.third .third-one .third-one-center {
+    width: 150px;
+    height: 200px;
+    background: salmon;
+}
+
+.third .third-one .third-one-center img {
+    width: 150px;
+    height: 160px;
+}
+
+.third-one-center p {
+    text-align: center;
+}
+
+
+.four {
+    width: 1400px;
+    height: 350px;
+    margin: 0 auto;
+    /*background: #4a82e5;*/
+}
+
+.four img {
+    width: 1400px;
+    height: 300px;
+}
+
+.four > .four-one {
+    text-align: center;
+    font-size: 20px;
+    color: #fdfdfd;
+    margin-top: -240px;
+
+}
+
+.four-four{
+    width: 800px;height: 200px;
+    /*background: springgreen;*/
+    display: flex;justify-content: space-around;margin:  0 auto;
+}
+.four-four>.four-one-sons{
+    width: 1px;height: 60px;border-left: white 1px solid;
+margin-top: 30px;
+}
+.four-two{
+    font-size: 20px;color: #FF7320;text-align: center;margin: 20px 0;
+}
+.four-three{
+    font-size: 12px;color: #AAAAAA;text-align: center;}
+
+
+.seven{
+    width: 1200px;height: 220px;background: salmon;margin: 0 auto;
+}
+.seven-one{
+    color: #4a82e5;font-size: 24px;text-align: center;
+    margin:10px 0 ;
+}
+.seven-two{
+    color: #313030;font-size: 12px;text-align: center;
+    width: 400px;margin: 10px auto;
+}
+.seven-three{
+    width: 800px;border-bottom:1px solid #AAAAAA ;margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.five {
+    width: 100%;
+    height: 30px;
+    background: #ffffff;
+    position: fixed;
+    bottom: 0;
+}
+
+.five-center {
+    width: 500px;
+    margin: 0 auto;
+    height: 100%;
+    margin: 0 auto;
+    /*background: #ffa500;*/
+
+}
+
+.five-center p {
+    text-align: center;
+    color: #959595;
+    font-size: 16px;
+}
+
+.six {
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    cursor: pointer;
+    display: none;
+}

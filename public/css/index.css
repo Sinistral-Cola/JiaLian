@@ -1,0 +1,68 @@
+.about {
+    width: 100%;
+    height: 600px;
+    background: lightblue;
+    margin-top: 20px;
+}
+
+.about > .aboutBox {
+    width: 1200px;
+    height: 600px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.about > .aboutBox > .title >p{
+    text-align: center;
+    color: #042a73;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.range {
+    width: 100%;
+    height: 600px;
+    background: lightgreen;
+    margin-top: 20px;
+}
+
+.range > .rangeBox {
+    width: 1200px;
+    height: 600px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.range > .rangeBox > .title >p{
+    text-align: center;
+    color: #042a73;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.news {
+    width: 100%;
+    height: 600px;
+    background: lightblue;
+    margin-top: 20px;
+}
+
+.news > .newsBox {
+    width: 1200px;
+    height: 600px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.news > .newsBox > .title >p{
+    text-align: center;
+    color: #042a73;
+    font-weight: bold;
+    font-size: 20px;
+}

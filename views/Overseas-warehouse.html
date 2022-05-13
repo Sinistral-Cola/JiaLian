@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>海外仓</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <!--    swiper轮播图-->
+    <link rel="stylesheet" href="../public/css/Overseas-warehouse.css">
+    <!--    css样式-->
+    <script src="../public/js/Jquery.js"></script>
+    <!--jquery-->
+    <link rel="stylesheet" href="../public/css/Animate.css">
+    <!--animate动画库-->
+</head>
+<body>
+<div class="Header"><h1>表头</h1></div>
+<div class="first">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../public/img/海外仓1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../public/img/海外仓2.jpg" alt=""></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div>
+<!--轮播图-->
+<div class="second">
+    <div class="second-one">
+        <div class="animated slideInLeft left">供应链服务</div>
+        <div class="right animated slideInRight">海外仓</div>
+
+        <div class="center animated slideInRight">
+
+            <a href="">
+                <svg t="1652278277456" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                     xmlns="http://www.w3.org/2000/svg"
+                     p-id="3503" width="30" height="30">
+                    <path d="M422.63 891.821V623.712h178.74v268.109h223.424V534.342h134.054L512 132.179 65.152 534.342h134.054V891.82H422.63z"
+                          fill="#3366CC" p-id="3504"></path>
+                </svg>
+                <!--        图标-->
+            </a>
+        </div>
+    </div>
+</div>
+<div class="third">
+    <div class="third-one animated fadeInDownBig">
+        <img src="../public/img/海外仓3.png" alt="">
+        <p style="font-size: 30px">我们仓库遍布多个国家,提供全方位的服务</p>
+        <p>嘉联在美国、日本、菲律宾、加拿大等多地建有自营仓储中心，立志打造海外智慧云仓，为跨境电商提供卓越的海外交付服务。</p>
+        <p>嘉联支持仓储、一件代发、FBA中转退货换标、及定制个性化操作需求。</p>
+    </div>
+</div>
+<div class="four">
+    <div class="four-center">
+        <p class="animated">我们的优势</p>
+        <hr>
+    </div>
+    <div class="four-one">
+        <div class="four-one-center">
+            <p class="four-one-center-a">dddd</p>
+        </div>
+        <div class="four-one-center">
+            <p class="four-one-center-a" >dddd</p>
+        </div>
+        <div class="four-one-center">
+            <p class="four-one-center-a">dddd</p>
+        </div>
+        <div class="four-one-center">
+            <p class="four-one-center-a">dddd</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="five">
+    <div class="five-center">
+        <p>嘉联物流有限公司</p>
+    </div>
+</div>
+<div class="six">
+    <svg t="1652337218714" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+         p-id="3918" width="40" height="40">
+        <path d="M512 68.266667c245.060267 0 443.733333 198.673067 443.733333 443.733333S757.060267 955.733333 512 955.733333 68.266667 757.060267 68.266667 512 266.939733 68.266667 512 68.266667"
+              fill="#257AE7" p-id="3919"></path>
+        <path d="M665.6 520.430933c-7.645867 0-15.291733-2.901333-21.111467-8.7552L512 379.221333l-132.488533 132.471467a29.832533 29.832533 0 0 1-42.222934 0 29.832533 29.832533 0 0 1 0-42.222933l153.6-153.6a29.832533 29.832533 0 0 1 42.222934 0l153.6 153.6A29.832533 29.832533 0 0 1 665.6 520.430933"
+              fill="#FFFFFF" p-id="3920"></path>
+        <path d="M512 717.4656a29.866667 29.866667 0 0 1-29.866667-29.866667V354.030933a29.866667 29.866667 0 0 1 59.733334 0v333.568a29.866667 29.866667 0 0 1-29.866667 29.866667"
+              fill="#FFFFFF" p-id="3921"></path>
+    </svg>
+    <!--  置顶图标-->
+</div>
+<!--置顶-->
+</body>
+</html>
+<script>
+
+    //轮播图
+    const mySwiper = new Swiper('.swiper-container', {
+        autoplay: true,//可选选项，自动滑动
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    })
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 50) {
+            $('.six').slideDown(1000)
+        } else {
+
+            $('.six').slideUp(1000)
+        }
+
+        console.log($(window).scrollTop())
+    });
+    //指定按钮出现与消失
+    $('.six').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+    });
+    //点击按钮返回顶部
+
+    $(function () {
+        $(window).scroll(function () {
+            if ($(window).scrollTop()>50) {
+              $(".four-center").addClass('animated fadeInLeft')
+            }
+        })
+
+
+    })
+</script>

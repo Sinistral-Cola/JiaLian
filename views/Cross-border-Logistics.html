@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>供应链-跨境物流</title>
+    <link rel="stylesheet" href="../public/css/Cross-border-Logistics.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <script src="../public/js/Jquery.js"></script>
+    <!--jquery-->
+    <link rel="stylesheet" href="../public/css/Animate.css">
+    <!--animate动画库-->
+</head>
+<body>
+<div class="Header"><h1>表头</h1></div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="../public/img/a.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="../public/img/b.png" alt=""></div>
+        <div class="swiper-slide"><img src="../public/img/c.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="../public/img/d.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="../public/img/e.jpg" alt=""></div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+<!--轮播图-->
+<div class="second">
+    <div class="second-one">
+        <div class="animated fadeInLeftBig left">供应链服务</div>
+        <div class="right animated fadeInRightBig">跨境物流</div>
+
+        <div class="center animated fadeInRightBig">
+
+            <a href="../views/index.html" target="_self">
+                <svg t="1652278277456" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                     xmlns="http://www.w3.org/2000/svg"
+                     p-id="3503" width="30" height="30">
+                    <path d="M422.63 891.821V623.712h178.74v268.109h223.424V534.342h134.054L512 132.179 65.152 534.342h134.054V891.82H422.63z"
+                          fill="#3366CC" p-id="3504"></path>
+                </svg>
+                <!--        图标-->
+            </a>
+        </div>
+    </div>
+</div>
+<!--物流服务  a标签连接首页-->
+<div class="third animated fadeInRightBig">
+    <p class="third-one">运输方式</p>
+    <hr>
+    <p class="third-two">提供海陆空全方位服务，多式联运，集港拖车</p>
+    <div class="third-three">
+        <img src="../public/img/hai.jpg" alt="">
+        <img src="../public/img/lu.jpg" alt="">
+        <img src="../public/img/kong.jpg" alt="">
+    </div>
+    <!--    载具图片-->
+    <div class="third-four">
+        <p>海运</p>
+        <p>陆运</p>
+        <p>空运</p>
+    </div>
+    <!--    运输方式-->
+    <div class="third-five">
+        <p>>>强大的海运运输能力</p>
+        <p>>>强大的陆运运输能力</p>
+        <p>>>强大的空运运输能力</p>
+    </div>
+</div>
+<!--运输方式-->
+<div class="four">
+    <div class="four-center">
+        <p class="four-center-one">服务声明</p>
+        <hr>
+        <p class="four-center-two">物流费按照实际操作收取费用,童叟无欺；</p>
+        <p class="four-center-one">服务特色</p>
+        <hr>
+        <p class="four-center-two">利用出口规模优势签订约价，争取更优惠的海、陆、空运服务价格；</p>
+        <p class="four-center-one">服务流程</p>
+        <hr>
+        <img src="../public/img/流程.jpg" alt="">
+    </div>
+</div>
+<!--服务特色-->
+<div class="five">
+    <div class="five-center">
+        <p>嘉联物流有限公司</p>
+    </div>
+</div>
+<div class="six">
+    <svg t="1652337218714" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+         p-id="3918" width="40" height="40">
+        <path d="M512 68.266667c245.060267 0 443.733333 198.673067 443.733333 443.733333S757.060267 955.733333 512 955.733333 68.266667 757.060267 68.266667 512 266.939733 68.266667 512 68.266667"
+              fill="#257AE7" p-id="3919"></path>
+        <path d="M665.6 520.430933c-7.645867 0-15.291733-2.901333-21.111467-8.7552L512 379.221333l-132.488533 132.471467a29.832533 29.832533 0 0 1-42.222934 0 29.832533 29.832533 0 0 1 0-42.222933l153.6-153.6a29.832533 29.832533 0 0 1 42.222934 0l153.6 153.6A29.832533 29.832533 0 0 1 665.6 520.430933"
+              fill="#FFFFFF" p-id="3920"></path>
+        <path d="M512 717.4656a29.866667 29.866667 0 0 1-29.866667-29.866667V354.030933a29.866667 29.866667 0 0 1 59.733334 0v333.568a29.866667 29.866667 0 0 1-29.866667 29.866667"
+              fill="#FFFFFF" p-id="3921"></path>
+    </svg>
+    <!--  置顶图标-->
+</div>
+<!--置顶-->
+</body>
+</html>
+<script>
+    //轮播图
+    const mySwiper = new Swiper('.swiper-container', {
+        autoplay: true,//可选选项，自动滑动
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    })
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 50) {
+            $('.six').slideDown(1000)
+        } else {
+
+            $('.six').slideUp(1000)
+        }
+
+        console.log($(window).scrollTop())
+    });
+    //指定按钮出现与消失
+    $('.six').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+    });
+    //点击按钮返回顶部
+
+    // $(function () {
+    //     $(window).scroll(function () {
+    //         if ($(window).scrollTop()===0){
+    //             // $('.third').addClass('animated fadeInRightBig');
+    //             $('.third').css('display','none')
+    //         } else if($(window).scrollTop()!=0){
+    //             $('.third').addClass('animated fadeInRightBig');
+    //         }
+    //     })
+    // });
+</script>

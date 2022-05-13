@@ -1,0 +1,135 @@
+p, h1, div, img, body {
+    margin: 0;
+    padding: 0
+}
+
+.Header {
+    height: 70px;
+    background: cornflowerblue;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.first {
+    width: 100%;
+    height: 400px;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 400px;
+    background: #192486;margin: 0 auto;
+}
+.swiper-slide img{
+    height: 400px;width: 100%;margin: 0 auto;
+}
+
+.second {
+    width: 100%;
+    height: 50px;
+    background: #4a82e5;
+    margin: 0 auto;
+}
+
+.second-one {
+    width: 1200px;
+    height: 50px;
+    background: #4a82e5;
+    margin: 0 auto;
+}
+
+.second-one .left {
+    width: 150px;
+    height: 50px;
+    /*background: cornflowerblue;*/
+    float: left;
+    margin-left: 50px;
+    font-size: 24px;
+    color: white;
+    line-height: 50px;
+}
+
+.second-one .right {
+    width: 150px;
+    height: 50px;
+    /*background: cornflowerblue;*/
+    float: right;
+    margin-right: 50px;
+    font-size: 18px;
+    color: white;
+    line-height: 50px;
+}
+
+.second-one .center {
+    float: right;
+    margin-right: -105px;
+    margin-top: 7px;
+}
+
+
+.third{
+    width: 100%;height: 300px;background: #192486;
+}
+.third-one{
+    width: 1200px;height: 300px;background: #f8f6f6;
+    margin:0 auto ;
+}
+.third-one img{
+    width: 600px;height: 300px;float: left;
+}
+.third-one p{
+    width: 500px;float: right;
+    /*border: 1px salmon solid;*/
+    display: inline-block;margin-top: 20px;margin-right: 50px;
+}
+.four{
+    width: 100%;height: 600px;background: #4a82e5;
+}
+.four .four-center{
+    width: 1200px;height: 50px;margin: 0 auto;
+    background: #ffa500;
+}
+.four .four-center p{
+    height:30px;font-size: 24px;
+    text-align: center;color: #0800ff;
+}
+.four .four-center hr{
+    border: 0.5px #0800ff solid;
+    width: 300px;
+}
+
+.four-one{
+    width: 1200px;height: 450px;margin: 0 auto;
+    background: #ffa500;display: flex;justify-content: space-around;
+}
+.four-one .four-one-center{
+    margin-top:20px ;
+    width: 200px;height: 260px;background: salmon;
+}
+.four-one .four-one-center p{
+    margin-top: 240px;text-align: center;
+}
+
+.five{
+    width: 100%;height: 30px;
+    background: #ffffff;
+    position: fixed;bottom: 0;
+}
+.five-center{
+    width: 500px;margin: 0 auto;height: 100%;margin: 0 auto;
+    /*background: #ffa500;*/
+}
+.five-center p{text-align: center;color: #959595;font-size: 16px;
+}
+
+
+
+
+
+
+
+.six{
+    position: fixed;
+    bottom: 50px;right: 100px;cursor: pointer;display: none;
+}
+
