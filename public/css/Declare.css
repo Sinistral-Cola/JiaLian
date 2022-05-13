@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background: lightpink;
+}
+
+#swiper {
+    width: 100%;
+    height: 400px;
+    background: #042a73
+}
+
+#DeclareTop {
+    width: 1200px;
+    height: 630px;
+    margin: 0 auto;
+    background: lightblue;
+}
+
+#DeclareTopLeft {
+    width: 390px;
+    height: 100%;
+    float: left;
+    background: lightsalmon;
+}
+
+#DeclareTopLeftImg {
+    width: 152px;
+    height: 126px;
+
+}
+
+#DeclareTopLeft h3 {
+    font-size: 28px;
+    color: rgb(2, 178, 181);
+    margin-top: -32px;
+    margin-left: 130px;
+}
+
+#DeclareTopLeft p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+}
+
+#DeclareTopRight {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    position: relative;
+    top: 65px;
+    left: 5px;
+    justify-content: space-around;
+    background: pink;
+}
+
+#DeclareTopRight div {
+    width: 245px;
+    height: 500px;
+    background: lightgreen;
+}
+
+#DeclareTopMiddleContant #MiddleImg1, #MiddleImg2, #MiddleImg3, #MiddleImg4, #MiddleImg5 {
+    width: 300px;
+    height: 150px;
+    background: #888888;
+}
+
+#MiddleImg1 {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+#MiddleImg2 {
+    position: absolute;
+    top: 320px;
+    left: 70px;
+}
+
+#MiddleImg3 {
+    position: absolute;
+    top: 320px;
+    left: 820px;
+}
+
+#MiddleImg4 {
+    position: absolute;
+    top: 100px;
+    left: 820px;
+}
+
+#MiddleImg5 {
+    position: absolute;
+    top: 530px;
+    left: 450px;
+}
+
+#DeclareTopMiddle {
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    background: #f7f7f7;
+}
+
+#DeclareTopMiddleContant {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background: pink;
+    position: relative;
+}
+
+#DeclareTopMiddleImg {
+    width: 480px;
+    height: 358px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    background: lightsalmon;
+    background: url("../../public/img/round.png.webp");
+}
+
+#DeclareTopMiddleImg img {
+    width: 177px;
+    height: 126px;
+    margin-left: -10px;
+    margin-top: 5px;
+}
+
+#DeclareTopMiddleImg p {
+    font-size: 24px;
+    color: rgb(2, 178, 181);
+}
+
+#DeclareUnder {
+    width: 1200px;
+    height: 630px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    background: lightblue;
+}
+
+#DeclareUnderRight {
+    width: 390px;
+    height: 100%;
+    float: right;
+    background: lightsalmon;
+}
+
+#DeclareUnderRightImg {
+    width: 152px;
+    height: 126px;
+
+}
+
+#DeclareUnderRight h3 {
+    font-size: 28px;
+    color: rgb(2, 178, 181);
+    margin-top: -32px;
+    margin-left: 130px;
+}
+
+#DeclareUnderRight p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+}
+#DeclareUnderLeft{
+    width: 800px;
+    height: 440px;
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    /*background: lightpink;*/
+
+}
+#DeclareUnderLeft div{
+    width: 380px;
+    height: 220px;
+    text-align: center;
+    background: lightgreen;
+
+}
+#footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 150px;
+    text-align: center;
+    line-height: 80px;
+    color: #ebebeb;
+    background: #042a73;
+}
+
+#goBack {
+    width: 78px;
+    height: 78px;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+

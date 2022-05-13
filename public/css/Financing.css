@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background: lightpink;
+}
+
+#swiper {
+    width: 100%;
+    height: 400px;
+    background: #042a73
+}
+
+#FinancingTop {
+    width: 1200px;
+    height: 355px;
+    text-align: center;
+    margin: 50px auto;
+    /*background: lightpink;*/
+}
+
+#FinancingTop h1 {
+    font-size: 48px;
+    color: rgb(30, 80, 174);
+}
+
+#FinancingTop span {
+    font-size: 14px;
+    color: #4B4B4B;
+}
+
+#FinancingTop span {
+    font-size: 20px;
+}
+
+#FinancingBack {
+    width: 100%;
+    height: 850px;
+    text-align: center;
+    background: url("../img/background1.jpg");
+    background-size: 100% 900px;
+}
+#FinancingBackImg{
+    width: 1400px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#FinancingBackImg div{
+    width: 320px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background: pink;
+}
+#FinancingBackImg div div{
+    width: 320px;
+    height: 80px;
+    margin-left: 0px;
+    margin-top: -5px;
+    background: lightblue;
+}
+#About{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background: #e5e8ef;
+}
+#AboutMiddle{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    background: pink;
+    display: flex;
+    justify-content: space-around;
+}
+#AboutMiddle div{
+    width: 250px;
+    height: 200px;
+    margin: 50px auto;
+    background: lightblue;
+    display: flex;
+    justify-content: space-around;
+}
+#footer {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    color: #ebebeb;
+    background: #042a73;
+}
+
+#goBack {
+    width: 78px;
+    height: 78px;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+

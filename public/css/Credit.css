@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background: lightpink;
+}
+
+#swiper {
+    width: 100%;
+    height: 400px;
+    background: #042a73
+}
+
+#CreditTop {
+    width: 100%;
+    height: 800px;
+    background: #fafafc;
+}
+
+#CreditTopText {
+    width: 500px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    background: lightpink;
+}
+
+#CreditTopButton {
+    width: 600px;
+    height: 100px;
+    margin: 30px auto;
+    display: flex;
+    text-align: center;
+    background: lightblue;
+}
+
+#CreditTopButton div {
+    width: 200px;
+    height: 50px;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 50px;
+    background: lightgreen;
+}
+
+#Button1:hover {
+
+}
+
+#CreditTopContant {
+    width: 1200px;
+    height: 300px;
+    margin: 30px auto;
+    display: flex;
+    background: lightsalmon;
+}
+
+#CreditTopContant div div {
+    width: 500px;
+    height: 300px;
+    float: left;
+    background: lightpink;
+}
+
+#CreditTopContant div div ~ div {
+    width: 600px;
+    height: 300px;
+    float: right;
+    background: lightgreen;
+}
+
+#Contant1 {
+    width: 1200px;
+    height: 300px;
+    background: white;
+    display: inline-block;
+}
+
+#Contant2 {
+    width: 1200px;
+    height: 300px;
+    background: pink;
+    display: none;
+}
+
+#Contant3 {
+    width: 1200px;
+    height: 300px;
+    background: brown;
+    display: none;
+}
+#CreditUnder {
+    width: 100%;
+    height: 800px;
+}
+
+#CreditUnderText {
+    width: 500px;
+    height: 150px;
+    margin: 50px auto;
+    text-align: center;
+    background: lightpink;
+}
+#CreditUnderContant{
+    width: 1200px;
+    height: 600px;
+    margin:  100px auto;
+    position: relative;
+    background: lightblue;
+}
+#CreditUnderContantLeft{
+    width: 700px;
+    height: 550px;
+    /*margin-top: 80px;*/
+    background: #888888;
+}
+#CreditUnderContantRight{
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 0 20px gray;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    z-index: 2;
+    background: white;
+}
+#footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 150px;
+    text-align: center;
+    line-height: 80px;
+    color: #ebebeb;
+    background: #042a73;
+}
+
+#goBack {
+    width: 78px;
+    height: 78px;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+}
+
+
+
+
+
+
+
+

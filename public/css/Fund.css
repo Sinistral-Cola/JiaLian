@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background: lightpink;
+}
+
+#Swiper img {
+    margin: 0 auto;
+    cursor: default;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    outline: none;
+    background-size: cover;
+}
+
+#AboutUs {
+    text-align: center;
+    margin: 80px auto 30px;
+    width: 300px;
+    height: 100px;
+    /*background: #042a73;*/
+    font-size: 28px;
+    color: #1E50AE;
+}
+
+#AboutUs p {
+    margin: 15px auto 0;
+    font-size: 20px;
+    color: #949494;
+}
+
+#AboutUsWords {
+    margin: 0 auto;
+    width: 994px;
+    height: 250px;
+    /*text-align: center;*/
+}
+
+#AboutUsWords span {
+    font-size: 14px;
+    line-height: 30px;
+    color: #2B2B2B;
+}
+
+#Founds {
+    width: 100%;
+    height: 800px;
+    background-image: url("https://14003955.s61i.faiusr.com/2/AD0I893WBhACGAAgtJDkyQUoqLOYqQIwgA84wAc.jpg");
+    margin: 0 auto;
+    cursor: default;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    outline: none;
+    background-size: cover;
+    position: relative;
+}
+
+#FoundsWords {
+    text-align: center;
+    margin: 60px auto 30px;
+    width: 300px;
+    height: 100px;
+    /*background: #042a73;*/
+    font-size: 28px;
+    color: #1E50AE;
+}
+
+#FoundsWords p {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+#FoundsWords span {
+    color: white;
+    font-size: 30px;
+}
+
+#FoundsBox {
+    margin: 70px auto 0;
+    position: relative;
+    width: 1200px;
+    height: 200px;
+    background: #c2dcdb;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#FoundsBox p {
+    margin: -190px 0 0 0;
+}
+#FoundsBox .Photo{
+    margin: 45px auto 0;
+}
+#footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 150px;
+    text-align: center;
+    line-height: 80px;
+    color: #ebebeb;
+    background: #042a73;
+}
+
+#goBack {
+    width: 78px;
+    height: 78px;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+

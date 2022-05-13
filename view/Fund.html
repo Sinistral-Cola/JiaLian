@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>基金</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="../public/css/Fund.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+</head>
+<body>
+<div id="nav"></div>
+<div id="Swiper">
+
+    <div class="first">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img
+                        src="https://13994135.s61i.faiusr.com/2/AD0Il5HWBhACGAAg06PdzQUolLrErAQwgA842AQ.jpg"
+                        alt="" width="100%" height="500">
+                </div>
+                <div class="swiper-slide"><img
+                        src="https://13994135.s61i.faiusr.com/2/AD0Il5HWBhACGAAg0KbdzQUonoX48wcwgA842AQ.jpg"
+                        alt="" width="100%" height="500"></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+    </div>
+
+</div>
+
+<div id="AboutUs">
+    关于我们 <br>
+    <p>About Us</p>
+</div>
+<div id="AboutUsWords">
+    <span>
+        XXX为中央直属国有独资金融机构。2007年5月30日，国家工商总局正式换发了公司的营业执照。2014年4月，公司取得私募基金管理人资格。根据国家工商总局
+        核准，公司的经营范围是投资业务和资产管理。股东是财政部，性质是国有独资，注册资本金为45亿元。公司的经营宗旨是利用各种资源和手段，为中小企业发展
+        的各个阶段提供全方位的服务，终实现公司与目标企业共同成长。作为具有特殊历史背景的国有资产经营管理公司，在妥善处理历史遗留问题的同时，公司以实
+        践国家产业政策为己任，通过大力开展各类投融资业务，努力实现国家、社会和目标企业多赢。自2007年更名至今，公司通过各项业务的开展，共实现盈利近
+        127亿元，实现利润超过89亿元。公司与各地政府积极沟通，合作设立产业创投基金，支持区域经济和高新技术企业发展。
+    </span>
+</div>
+
+<div id="Founds">
+    <div id="FoundsWords">
+        <p>专项基金</p>
+        <span>SPECIAL FUND</span>
+    </div>
+    <div id="FoundsBox">
+        <div id="BoxA">
+            <img src="https://13994135.s61i.faiusr.com/2/AD0Il5HWBhACGAAg4JTfyQUo6aDSgAQwnQI4yAE.jpg.webp" alt="">
+            <p>信息技术基金</p>
+            <img class="Photo" src="https://13994135.s61i.faiusr.com/4/AD0Il5HWBhAEGAAgy5ffyQUoj5uzwwUwUDhQ.png.webp" alt="">
+        </div>
+        <div id="BoxB">
+            <img src="https://13994135.s61i.faiusr.com/2/AD0Il5HWBhACGAAg4JTfyQUo6aDSgAQwnQI4yAE.jpg.webp" alt="">
+            <p>信息技术基金</p>
+            <img class="Photo" src="https://13994135.s61i.faiusr.com/4/AD0Il5HWBhAEGAAgvZjfyQUoyqDilwcwUDhQ.png.webp" alt="">
+        </div>
+        <div id="BoxC">
+            <img src="https://13994135.s61i.faiusr.com/2/AD0Il5HWBhACGAAg4JTfyQUo6aDSgAQwnQI4yAE.jpg.webp" alt="">
+            <p>信息技术基金</p>
+            <img  class="Photo" src="https://13994135.s61i.faiusr.com/4/AD0Il5HWBhAEGAAgwZjfyQUojMeppQEwUDhQ.png.webp" alt="">
+        </div>
+        <div id="BoxD">
+            <img src="https://13994135.s61i.faiusr.com/2/AD0Il5HWBhACGAAg4JTfyQUo6aDSgAQwnQI4yAE.jpg.webp" alt="">
+            <p>信息技术基金</p>
+            <img class="Photo" src="https://13994135.s61i.faiusr.com/4/AD0Il5HWBhAEGAAgxpjfyQUolojclwcwUDhQ.png.webp" alt="">
+
+        </div>
+    </div>
+
+
+</div>
+<div id="footer">
+    <p>外贸综合服务</p>
+</div>
+<!--<div id="goBack">-->
+<!--    <img src="../public/img/返回顶部.png" alt="111" style="height: 78px;width: 78px">-->
+<!--</div>-->
+</body>
+</html>
+<script>//轮播图
+const mySwiper = new Swiper('.swiper-container', {
+    autoplay: true,//可选选项，自动滑动
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+})</script>
+<!--<script>-->
+<!--    var topBtn = document.getElementById('goBack');-->
+<!--    // 获取视窗高度-->
+<!--    var winHeight = document.documentElement.clientHeight;-->
+<!--    window.onscroll = function () {-->
+<!--        // 获取页面向上滚动距离，chrome浏览器识别document.body.scrollTop，而火狐识别document.documentElement.scrollTop，这里做了兼容处理-->
+<!--        var toTop = document.documentElement.scrollTop || document.body.scrollTop;-->
+<!--        // 如果滚动超过一屏，返回顶部按钮出现，反之隐藏-->
+<!--        if (toTop >= winHeight - 800) {-->
+<!--            topBtn.style.display = 'block';-->
+<!--        } else {-->
+<!--            topBtn.style.display = 'none';-->
+<!--        }-->
+<!--    }-->
+<!--    topBtn.onclick = function () {-->
+<!--        var timer = setInterval(function () {-->
+<!--            var toTop = document.documentElement.scrollTop || document.body.scrollTop;-->
+<!--            // 判断是否到达顶部，到达顶部停止滚动，没到达顶部继续滚动-->
+<!--            if (toTop == 0) {-->
+<!--                clearInterval(timer);-->
+<!--            } else {-->
+<!--                // 设置滚动速度-->
+<!--                var speed = Math.ceil(toTop / 8);-->
+<!--                // 页面向上滚动-->
+<!--                document.documentElement.scrollTop = document.body.scrollTop = toTop - speed;-->
+<!--            }-->
+<!--        }, 20);-->
+<!--    }-->
+<!--</script>-->

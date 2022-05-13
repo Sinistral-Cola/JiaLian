@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/*开始背景图*/
+#back {
+    margin: 0 auto;
+    width: 100%;
+    height: 380px;
+    background-image: url("../img/a.jpg");
+    cursor: default;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    outline: none;
+    background-size: cover;
+}
+/*公司简介*/
+#aboutWord {
+    margin: 50px auto 20px;
+    width: 300px;
+    height: 80px;
+    font-size: 35px;
+    color: #2B2B2B;
+    text-align: center;
+
+    /*background: chartreuse;*/
+}
+#about {
+    width: 100%;
+    height: 380px;
+    margin: 0 auto;
+    position: relative;
+    /*left: 30px;*/
+    background-image: url("http://11056517.s61i.faiusr.com/2/AD0IheuiBRACGAAg97DuwgUo9NDg9gQwgA84jwQ.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#about #WordsBox {
+    margin: 0 auto;
+    width: 430px;
+    height: 300px;
+    position: relative;
+    left: -350px;
+    top: 20px;
+}
+#about #photo {
+    margin: 0 auto;
+    width: 430px;
+    height: 324px;
+    background-image: url("../img/b.webp");
+    background-repeat: no-repeat;
+    position: relative;
+    top: -300px;
+    left: 280px;
+}
+/*优秀员工*/
+#outstanding {
+    margin: 40px auto;
+    width: 300px;
+    height: 80px;
+    font-size: 35px;
+    color: #2B2B2B;
+    text-align: center;
+    line-height: 80px;
+}
+#staff {
+    margin: 0 auto;
+    width: 1200px;
+    height: 300px;
+    /*background: cornflowerblue;*/
+    display: flex;
+    justify-content: space-around;
+
+}
+#staff div {
+    width: 200px;
+    height: 300px;
+    background: #c2dcdb;
+}
+/*管理*/
+#manage{
+    margin:  60px auto;
+    position: relative;
+    width: 100%;
+    height: 580px;
+    text-align: center;
+    /*background: blue;*/
+}
+#manageWords{
+    margin: 40px auto;
+    width: 300px;
+    height: 80px;
+    font-size: 35px;
+    color: #2B2B2B;
+    text-align: center;
+    line-height: 80px;
+}
+
+#manage p{
+    color: #949494;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+#managePhoto{
+    margin: 30px auto ;
+    width: 1130px;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+#FigureOne{
+    width: 233px;
+    height: 317px;
+    /*background: #f1eded;*/
+    text-align: center;
+    position: relative;
+}
+#FigureOne img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+#FigureOne span{
+    position: absolute;
+    top: 220px;
+    left: 70px ;
+
+}
+
+
+#FigureTwo{
+    width: 233px;
+    height: 317px;
+    /*background: #f1eded;*/
+    text-align: center;
+    position: relative;
+
+
+}
+#FigureTwo img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+
+}
+#FigureTwo span{
+    position: absolute;
+    top: 220px;
+    left: 80px ;
+
+}
+
+#FigureThree{
+    width: 233px;
+    height: 317px;
+    /*background: #f1eded;*/
+    text-align: center;
+    position: relative;
+
+}
+
+#FigureThree img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+#FigureThree span{
+    position: absolute;
+    top: 220px;
+    left: 60px ;
+
+}
+
+#FigureFour{
+    width: 233px;
+    height: 317px;
+    /*background: #f1eded;*/
+    text-align: center;
+    position: relative;
+}
+#FigureFour img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+#FigureFour span{
+    position: absolute;
+    top: 220px;
+    left: 60px ;
+
+}
+
+#corporateCulture {
+    margin: 40px auto 20px;
+    width: 300px;
+    height: 80px;
+    font-size: 35px;
+    color: #2B2B2B;
+    text-align: center;
+}
+
+#CulturePhoto {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 370px;
+    /*background: #5890a5;*/
+}
+
+#CulturePhoto #CulturePhotos {
+    position: relative;
+    width: 600px;
+    height: 370px;
+    /*background: red;*/
+}
+
+#CulturePhoto #CulturePhotos #A {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 260px;
+    height: 350px;
+    /*background:blue;*/
+    overflow: hidden;
+}
+
+#CulturePhoto #CulturePhotos #B {
+    width: 310px;
+    height: 190px;
+    position: absolute;
+    top: 10px;
+    left: 280px;
+    /*background: #5890a5;*/
+    overflow: hidden;
+
+}
+
+#CulturePhoto #CulturePhotos #C {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 210px;
+    left: 280px;
+    /*background: #732684;*/
+    overflow: hidden;
+
+}
+
+#CulturePhoto #CulturePhotos #D {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 210px;
+    left: 440px;
+    /*background: #4c8425;*/
+    overflow: hidden;
+
+}
+
+#CulturePhoto #CulturePhotos img:hover {
+    transform: scale(1.12);
+    transition: all .8s;
+}
+
+#CulturePhoto #CultureWords {
+    width: 580px;
+    height: 350px;
+    /*background: red;*/
+    position: absolute;
+    top: 10px;
+    left: 610px;
+}
+
+#purpose {
+    margin: 50px auto;
+    width: 100%;
+    height: 220px;
+    position: relative;
+    background-image: url("https://img.alicdn.com/tfs/TB1Hcj9GBr0gK0jSZFnXXbRRXXa-3360-1060.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#purpose > #purposes {
+    margin: 0 auto;
+    width: 100%;
+    height: 140px;
+    text-align: center;
+}
+#purpose > #purposes > p {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+#purpose > #purposes > a {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 25px;
+}

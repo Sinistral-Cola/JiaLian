@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background: lightpink;
+}
+
+#swiper {
+    width: 100%;
+    height: 400px;
+    background: #042a73
+}
+
+#RebatesTopOne {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+    /*background: lightgreen;*/
+    border-bottom: 0.5px solid darkgray;
+}
+
+#RebatesTopOne > h2 {
+    font-size: 36px;
+    color: #666666;
+    font-family: "微软雅黑";
+}
+
+#RebatesTopOne > span {
+    font-size: 18px;
+    color: #666666;
+    font-family: "微软雅黑";
+    margin-top: 20px;
+}
+
+#RebatesTopTwo {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    /*background: lightpink;*/
+    border-bottom: 0.5px solid darkgray;
+}
+
+#RebatesTopTwoLeft {
+    width: 550px;
+    height: 500px;
+    float: left;
+    margin-top: 50px;
+    background: lightblue;
+}
+
+#RebatesTopTwoLeft:hover {
+    transform: scale(1.04);
+    transition: all 0.8s;
+}
+
+#RebatesTopTwoRight {
+    width: 600px;
+    height: 500px;
+    float: right;
+    margin-top: 50px;
+    background: lightgrey;
+}
+
+#RebatesTopTwoRight > div {
+    width: 600px;
+    height: 150px;
+    margin-bottom: 25px;
+    position: relative;
+    background: lightgreen;
+}
+
+#RebatesTopTwoRight > div > span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    color: #888888;
+}
+
+#RebatesTopTwoRight > div > p {
+    margin-top: 10px;
+    color: #888888;
+}
+
+#RebatesTopTwoRight > div:hover {
+    transform: scale(1.04);
+    transition: all 0.8s;
+}
+
+#RebatesUnder {
+    width: 1200px;
+    height: 950px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background: lightblue;
+}
+
+#RebatesUnder > div {
+    width: 350px;
+    height: 392px;
+    margin-top: 40px;
+    margin-left: 28px;
+    margin-right: 20px;
+    background: lightsalmon;
+}
+
+#RebatesUnder > div:hover {
+    transform: scale(1.04);
+    transition: all 0.8s;
+}
+
+#footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 150px;
+    text-align: center;
+    line-height: 80px;
+    color: #ebebeb;
+    background: #042a73;
+}
+
+#goBack {
+    width: 78px;
+    height: 78px;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background: lightpink;
+}
+
+#swiper {
+    width: 100%;
+    height: 400px;
+    background: #042a73
+}
+
+#ExchangeTop {
+    width: 1200px;
+    height: 700px;
+    margin: 70px auto;
+    background: lightblue;
+}
+
+#ExchangeTopLeft {
+    width: 620px;
+    height: 300px;
+    float: left;
+    margin-top: 50px;
+    /*background: lightgreen;*/
+}
+#ExchangeTopRight {
+    width: 490px;
+    height: 550px;
+    float: right;
+    margin-top: 70px;
+    background: lightgrey;
+}
+#ExchangeTopRight:hover{
+    transform: scale(1.03);
+    transition: all 2s;
+}
+#ExchangeTopUnder{
+    width: 831px;
+    height: 170px;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px #888888;
+    position: relative;
+    top: 400px;
+}
+#ExchangeTopLeft h1 {
+    float: left;
+    color: #333333;
+    font-size: 32px;
+}
+#ExchangeTopLeft h2 {
+    float: left;
+    color: #333333;
+    font-size: 32px;
+}
+#ExchangeTopLeft span {
+    float: left;
+    color: #666666;
+    font-size: 16px;
+}
+#ExchangeUnder{
+    width: 100%;
+    height: 600px;
+    background: #fafafc;
+    margin: 0 auto;
+}
+#UnderContant{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: lightpink;
+}
+#UnderContant div{
+    width: 390px;
+    height: 290px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    background: lightgreen;
+}
+#Img1:hover{
+    transform: scale(1.03);
+    transition: all 1s;
+}
+#Img3:hover{
+    transform: scale(1.03);
+    transition: all 1s;
+}
+#Img5:hover{
+    transform: scale(1.03);
+    transition: all 1s;
+}
+
+#footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 150px;
+    text-align: center;
+    line-height: 80px;
+    color: #ebebeb;
+    background: #042a73;
+}
+
+#goBack {
+    width: 78px;
+    height: 78px;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>信贷</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="../public/css/Credit.css">
+</head>
+<body>
+<div id="nav"></div>
+<div id="swiper"></div>
+<div id="CreditTop">
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="CreditTopText">
+        <h1 style="font-size: 36px">NEWS INFORMATION</h1>
+        <br>
+        <span style="font-size: 18px;">风险警告</span>
+    </div>
+    <div id="CreditTopButton">
+        <div id="Button1" style="border-right: 1px solid gray">法律声明</div>
+        <div id="Button2" style="border-right: 1px solid gray">风险提示</div>
+        <div id="Button3">隐私条约</div>
+    </div>
+    <div id="CreditTopContant">
+        <div id="Contant1">
+            <div id="ContantImg1"></div>
+            <div id="new1"></div>
+        </div>
+        <div id="Contant2">
+            <div id="ContantImg2"></div>
+            <div id="new2"></div>
+        </div>
+        <div id="Contant3">
+            <div id="ContantImg3"></div>
+            <div id="new3"></div>
+        </div>
+    </div>
+</div>
+<div id="CreditUnder">
+    <div id="CreditUnderText">
+        <h1 style="font-size: 36px">NEWS INFORMATION</h1>
+        <br>
+        <span style="font-size: 18px;">风险警告</span>
+    </div>
+    <div id="CreditUnderContant">
+        <div id="CreditUnderContantLeft">
+            <img src="" alt="">
+        </div>
+        <div id="CreditUnderContantRight">
+
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+    <p>外贸综合服务</p>
+</div>
+<div id="goBack">
+    <img src="../public/img/返回顶部.png" alt="" style="height: 78px;width: 78px">
+</div>
+</body>
+</html>
+<script>
+    var button1 = document.getElementById('Button1')
+    var button2 = document.getElementById('Button2')
+    var button3 = document.getElementById('Button3')
+    var contant1 = document.getElementById('Contant1')
+    var contant2 = document.getElementById('Contant2')
+    var contant3 = document.getElementById('Contant3')
+    button1.onmouseover = function () {
+        contant1.style.display = 'inline-block'
+        contant2.style.display = 'none'
+        contant3.style.display = 'none'
+    }
+    button2.onmouseover = function () {
+        contant2.style.display = 'inline-block'
+        contant1.style.display = 'none'
+        contant3.style.display = 'none'
+    }
+    button3.onmouseover = function () {
+        contant3.style.display = 'inline-block'
+        contant2.style.display = 'none'
+        contant1.style.display = 'none'
+    }
+
+
+    var topBtn = document.getElementById('goBack');
+    // 获取视窗高度
+    var winHeight = document.documentElement.clientHeight;
+    window.onscroll = function () {
+        // 获取页面向上滚动距离，chrome浏览器识别document.body.scrollTop，而火狐识别document.documentElement.scrollTop，这里做了兼容处理
+        var toTop = document.documentElement.scrollTop || document.body.scrollTop;
+        // 如果滚动超过一屏，返回顶部按钮出现，反之隐藏
+        if (toTop >= winHeight - 800) {
+            topBtn.style.display = 'block';
+        } else {
+            topBtn.style.display = 'none';
+        }
+    }
+    topBtn.onclick = function () {
+        var timer = setInterval(function () {
+            var toTop = document.documentElement.scrollTop || document.body.scrollTop;
+            // 判断是否到达顶部，到达顶部停止滚动，没到达顶部继续滚动
+            if (toTop == 0) {
+                clearInterval(timer);
+            } else {
+                // 设置滚动速度
+                var speed = Math.ceil(toTop / 8);
+                // 页面向上滚动
+                document.documentElement.scrollTop = document.body.scrollTop = toTop - speed;
+            }
+        }, 20);
+    }
+
+</script>

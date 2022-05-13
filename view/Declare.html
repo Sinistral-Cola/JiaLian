@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>政策申报</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="../public/css/Declare.css">
+</head>
+<body>
+<div id="nav"></div>
+<div id="swiper"></div>
+<div id="DeclareTop">
+    <div id="DeclareTopLeft">
+        <div id="DeclareTopLeftImg">
+            <img src="../public/img/01.png.webp" alt="">
+        </div>
+        <h3>STYLE CATEGORY</h3>
+        <br>
+        <p>If we want to improve our reputation through a lot of advertising, we are more willing to invest in
+            high-quality raw materials, structural design, exquisite technology and after-sales service.
+        </p>
+        <br>
+        <p>If we want to improve our reputation through a lot of advertising, we are more willing to invest in
+            high-quality raw materials, structural design, exquisite technology and after-sales service.
+        </p>
+        <br>
+        <p>If we want to improve our reputation through a lot of advertising, we are more willing to invest in
+            high-quality raw materials, structural design, exquisite technology and after-sales service.
+        </p>
+    </div>
+    <div id="DeclareTopRight">
+        <div id="DeclareTopRightImg1">
+            <img src="" alt="">
+        </div>
+        <div id="DeclareTopRightImg2">
+            <img src="" alt="">
+        </div>
+        <div id="DeclareTopRightImg3">
+            <img src="" alt="">
+        </div>
+    </div>
+</div>
+<div id="DeclareTopMiddle">
+    <div id="DeclareTopMiddleContant">
+        <div id="DeclareTopMiddleImg">
+            <img src="../public/img/02.png.webp" alt="">
+            <br>
+            <br>
+            <p>CLASSIFICATION</p>
+        </div>
+        <div id="MiddleImg1">
+            <img src="" alt="">
+        </div>
+        <div id="MiddleImg2">
+            <img src="" alt="">
+        </div>
+        <div id="MiddleImg3">
+            <img src="" alt="">
+        </div>
+        <div id="MiddleImg4">
+            <img src="" alt="">
+        </div>
+        <div id="MiddleImg5">
+            <img src="" alt="">
+        </div>
+    </div>
+
+</div>
+<div id="DeclareUnder">
+    <div id="DeclareUnderRight">
+        <div id="DeclareUnderRightImg">
+            <img src="../public/img/03.png.webp" alt="">
+        </div>
+        <h3>STYLE CATEGORY</h3>
+        <br>
+        <p>If we want to improve our reputation through a lot of advertising, we are more willing to invest in
+            high-quality raw materials, structural design, exquisite technology and after-sales service.
+        </p>
+        <br>
+        <p>If we want to improve our reputation through a lot of advertising, we are more willing to invest in
+            high-quality raw materials, structural design, exquisite technology and after-sales service.
+        </p>
+        <br>
+        <p>If we want to improve our reputation through a lot of advertising, we are more willing to invest in
+            high-quality raw materials, structural design, exquisite technology and after-sales service.
+        </p>
+    </div>
+    <div id="DeclareUnderLeft">
+        <div id="UnderLeftImg1">
+            <img src="" alt="">
+        </div>
+        <div id="UnderLeftImg2">
+            <br>
+            <h2>Authentic American design</h2>
+            <br>
+            <p>XX founded M the household, is a mainly by M the designer group,
+                is set in the American family life, according to each place different
+                ethnic groups, different customs, different living habits and different
+                preferences</p>
+        </div>
+        <div id="UnderLeftImg3">
+            <br>
+            <h2>Authentic American design</h2>
+            <br>
+            <p>XX founded M the household, is a mainly by M the designer group,
+                is set in the American family life, according to each place different
+                ethnic groups, different customs, different living habits and different
+                preferences</p>
+        </div>
+        <div id="UnderLeftImg4">
+            <img src="" alt="">
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <p>外贸综合服务</p>
+</div>
+<div id="goBack">
+    <img src="../public/img/返回顶部.png" alt="" style="height: 78px;width: 78px">
+</div>
+</body>
+</html>
+<script>
+    var topBtn = document.getElementById('goBack');
+    // 获取视窗高度
+    var winHeight = document.documentElement.clientHeight;
+    window.onscroll = function () {
+        // 获取页面向上滚动距离，chrome浏览器识别document.body.scrollTop，而火狐识别document.documentElement.scrollTop，这里做了兼容处理
+        var toTop = document.documentElement.scrollTop || document.body.scrollTop;
+        // 如果滚动超过一屏，返回顶部按钮出现，反之隐藏
+        if (toTop >= winHeight - 800) {
+            topBtn.style.display = 'block';
+        } else {
+            topBtn.style.display = 'none';
+        }
+    }
+    topBtn.onclick = function () {
+        var timer = setInterval(function () {
+            var toTop = document.documentElement.scrollTop || document.body.scrollTop;
+            // 判断是否到达顶部，到达顶部停止滚动，没到达顶部继续滚动
+            if (toTop == 0) {
+                clearInterval(timer);
+            } else {
+                // 设置滚动速度
+                var speed = Math.ceil(toTop / 8);
+                // 页面向上滚动
+                document.documentElement.scrollTop = document.body.scrollTop = toTop - speed;
+            }
+        }, 20);
+    }
+</script>

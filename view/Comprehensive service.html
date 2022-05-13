@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>外贸综合服务</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="../public/css/Comprehensive%20service.css">
+</head>
+<body>
+<div id="nav"></div>
+<div id="swiper"></div>
+<div id="ServeTopOne">
+    <h2>基础服务</h2>
+    <span>Basic services</span>
+    <br>
+    <br>
+    <p>
+        物流基础设施是指在供应链的整体服务功能上和供应链的某些环节上，物流基础设施是指在供应链的整体服务功能上和供应链的某些环节上，满足物流组织与管理需要的、具有综合或单一功能的场所或组织的统称，主要包括公路、铁路、港口、机场、流通中心以及网络通信基础等。
+    </p>
+</div>
+<div id="ServeTopTwo">
+    <div id="PngOne">
+        <a href="../view/Comprehensive service.html"> <img src="../public/img/出口报关管理.png" alt=""
+                                                           style="width: 100px;height: 100px;margin-top:46px;margin-left: 44px "></a>
+
+        <p>报关</p>
+    </div>
+    <div id="PngTwo">
+        <a href="../view/Rebates.html"> <img src="../public/img/出口退税.png" alt="" style="width: 120px;height: 120px;
+         margin-left: 34px;
+         margin-top: 36px;"></a>
+
+        <p style="margin-top: 50px">退税</p>
+    </div>
+    <div id="PngThree">
+        <a href="../view/Policy.html"> <img src="../public/img/政策申报.png" alt="" style="width: 85px;height: 85px;
+         margin-left: 51.5px;
+         margin-top: 53.5px;"></a>
+
+        <p style="margin-top: 65px">政策申报</p>
+    </div>
+</div>
+<div id="ServeTopMiddle">
+
+</div>
+<div id="ServeTopBody">
+
+    <div id="ServeTopBodyImg">
+
+    </div>
+
+    <div id="ServeTopBodyText">
+        <div id="Text1"></div>
+        <div id="Text2"></div>
+        <div id="Text3"></div>
+        <div id="Text4"></div>
+    </div>
+</div>
+<div id="ServeMiddleOne">
+    <h2>退税</h2>
+    <span>Tax rebates</span>
+    <br>
+    <br>
+    <p>
+        物流基础设施是指在供应链的整体服务功能上和供应链的某些环节上，物流基础设施是指在供应链的整体服务功能上和供应链的某些环节上，满足物流组织与管理需要的、具有综合或单一功能的场所或组织的统称，主要包括公路、铁路、港口、机场、流通中心以及网络通信基础等。
+    </p>
+</div>
+<div id="ServeMiddleTwo">
+    <div id="ServeMiddleTwoImg1"></div>
+    <div id="ServeMiddleTwoImg2"></div>
+    <div id="ServeMiddleTwoImg3"></div>
+    <div id="ServeMiddleTwoImg4"></div>
+</div>
+
+<div id="ServeUnderText">
+    <h2>政策申报</h2>
+    <span>Policy to declare</span>
+    <br>
+    <br>
+    <p>
+        物流基础设施是指在供应链的整体服务功能上和供应链的某些环节上，物流基础设施是指在供应链的整体服务功能上和供应链的某些环节上，满足物流组织与管理需要的、具有综合或单一功能的场所或组织的统称，主要包括公路、铁路、港口、机场、流通中心以及网络通信基础等。
+    </p>
+</div>
+<div id="ServeUnder">
+    <div id="ServeUnderImg1"></div>
+    <div id="ServeUnderImg2"></div>
+    <div id="ServeUnderImg3"></div>
+    <div id="ServeUnderImg4"></div>
+</div>
+<div id="footer">
+    <p>外贸综合服务</p>
+</div>
+<div id="goBack">
+    <img src="../public/img/返回顶部.png" alt="" style="height: 78px;width: 78px">
+</div>
+</body>
+</html>
+<script>
+    var topBtn = document.getElementById('goBack');
+    // 获取视窗高度
+    var winHeight = document.documentElement.clientHeight;
+    window.onscroll = function () {
+        // 获取页面向上滚动距离，chrome浏览器识别document.body.scrollTop，而火狐识别document.documentElement.scrollTop，这里做了兼容处理
+        var toTop = document.documentElement.scrollTop || document.body.scrollTop;
+        // 如果滚动超过一屏，返回顶部按钮出现，反之隐藏
+        if (toTop >= winHeight) {
+            topBtn.style.display = 'block';
+        } else {
+            topBtn.style.display = 'none';
+        }
+    }
+    topBtn.onclick = function () {
+        var timer = setInterval(function () {
+            var toTop = document.documentElement.scrollTop || document.body.scrollTop;
+            // 判断是否到达顶部，到达顶部停止滚动，没到达顶部继续滚动
+            if (toTop == 0) {
+                clearInterval(timer);
+            } else {
+                // 设置滚动速度
+                var speed = Math.ceil(toTop / 8);
+                // 页面向上滚动
+                document.documentElement.scrollTop = document.body.scrollTop = toTop - speed;
+            }
+        }, 20);
+    }
+</script>

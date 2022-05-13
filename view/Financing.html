@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>金融服务</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="../public/css/Financing.css">
+</head>
+<body>
+<div id="nav"></div>
+<div id="swiper"></div>
+<div id="FinancingTop">
+    <h1>金融服务</h1>
+    <p>Financial services</p>
+    <br>
+    <br>
+    <span>
+XXX为中央直属国有独资金融机构。2007年5月30日，国家工商总局正式换发了公司的营业执照。2014年4月，公司取得私募基金管理人资格。根据国家工商总局核准，公司的经营范围是投资业务和资产管理。股东是财政部，性质是国有独资，注册资本金为45亿元。公司的经营宗旨是利用各种资源和手段，为中小企业发展的各个阶段提供全方位的服务，终实现公司与目标企业共同成长。作为具有特殊历史背景的国有资产经营管理公司，在妥善处理历史遗留问题的同时，公司以实践国家产业政策为己任，通过大力开展各类投融资业务，努力实现国家、社会和目标企业多赢。自2007年更名至今，公司通过各项业务的开展，共实现盈利近127亿元，实现利润超过89亿元。公司与各地政府积极沟通，合作设立产业创投基金，支持区域经济和高新技术企业发展。
+    </span>
+</div>
+<div id="FinancingBack">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 style="font-size: 48px;color: #FFFFFF;">专项基金</h1>
+    <p style="font-size:26px;color: rgba(255, 255, 255, 0.698)">SPECIAL&nbsp;&nbsp;&nbsp;FUND</p>
+    <br>
+    <br>
+    <br>
+    <div id="FinancingBackImg">
+        <div id="BackImg1">
+            <div id="BackImgText1"></div>
+        </div>
+        <div id="BackImg2">
+            <div id="BackImgText2"></div>
+        </div>
+        <div id="BackImg3">
+            <div id="BackImgText3"></div>
+        </div>
+        <div id="BackImg4">
+            <div id="BackImgText4"></div>
+        </div>
+        <div id="BackImg5">
+            <div id="BackImgText5"></div>
+        </div>
+        <div id="BackImg6">
+            <div id="BackImgText6"></div>
+        </div>
+        <div id="BackImg7">
+            <div id="BackImgText7"></div>
+        </div>
+        <div id="BackImg8">
+            <div id="BackImgText8"></div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<div id="About">
+    <br>
+    <br>
+    <h1>COOPERATIVE PARTNER</h1>
+    <br>
+    <br>
+
+    <h2>合作伙伴</h2>
+    <br>
+    <br>
+    <br>
+    <div id="AboutMiddle">
+
+
+        <div id="AboutImg1">
+
+        </div>
+        <div id="AboutImg2">
+
+        </div>
+        <div id="AboutImg3">
+
+        </div>
+        <div id="AboutImg4">
+
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <p>外贸综合服务</p>
+</div>
+<div id="goBack">
+    <img src="../public/img/返回顶部.png" alt="" style="height: 78px;width: 78px">
+</div>
+</body>
+</html>
+<script>
+    var topBtn = document.getElementById('goBack');
+    // 获取视窗高度
+    var winHeight = document.documentElement.clientHeight;
+    window.onscroll = function () {
+        // 获取页面向上滚动距离，chrome浏览器识别document.body.scrollTop，而火狐识别document.documentElement.scrollTop，这里做了兼容处理
+        var toTop = document.documentElement.scrollTop || document.body.scrollTop;
+        // 如果滚动超过一屏，返回顶部按钮出现，反之隐藏
+        if (toTop >= winHeight - 800) {
+            topBtn.style.display = 'block';
+        } else {
+            topBtn.style.display = 'none';
+        }
+    }
+    topBtn.onclick = function () {
+        var timer = setInterval(function () {
+            var toTop = document.documentElement.scrollTop || document.body.scrollTop;
+            // 判断是否到达顶部，到达顶部停止滚动，没到达顶部继续滚动
+            if (toTop == 0) {
+                clearInterval(timer);
+            } else {
+                // 设置滚动速度
+                var speed = Math.ceil(toTop / 8);
+                // 页面向上滚动
+                document.documentElement.scrollTop = document.body.scrollTop = toTop - speed;
+            }
+        }, 20);
+    }
+</script>

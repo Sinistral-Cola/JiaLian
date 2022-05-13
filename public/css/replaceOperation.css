@@ -1,0 +1,246 @@
+div, ul, li, html, body, h1, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.topImg {
+  width: 100%;
+  height: 300px;
+  background: lightseagreen;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.swiper {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.content {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 1200px;
+  background: #ebebeb;
+}
+
+.content > h1 {
+  display: inline-block;
+}
+
+.content > p {
+  display: inline-block;
+  float: right;
+}
+
+.contentTopLeft, .contentTopRight {
+  display: inline-block;
+  position: absolute;
+}
+
+@keyframes slideOne {
+  from {
+    left: 0;
+  }
+  to {
+    left: -1200px;
+  }
+}
+
+@keyframes slideTwo {
+  from {
+    left: 1200px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+
+.contentTopLeft {
+  animation: slideOne 15s linear infinite;
+}
+
+.contentTopRight {
+  animation: slideTwo 15s linear infinite;
+  left: 1200px;
+}
+
+.carousel {
+  margin: 20px 0;
+  width: 10000px;
+  height: 150px;
+  position: relative;
+}
+
+.contentTop {
+  margin: 0 auto;
+  width: 1200px;
+  height: 150px;
+  list-style: none;
+}
+
+
+.contentTop > li {
+  float: left;
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.contentTopLeft > li {
+  background: #039dc2;
+}
+
+.contentTopRight > li {
+  background: #039dc2;
+}
+
+.contentTop > li:hover {
+  background: rgb(3, 157, 194);
+  transform: scale(1.08);
+  transition: all 0.8s;
+}
+
+.content > .contentMiddle {
+  margin: 0 auto;
+  width: 1200px;
+  height: 500px;
+  list-style: none;
+  background: lightseagreen;
+  position: relative;
+}
+
+.content > .contentMiddle > div:first-child {
+  position: absolute;
+  display: inline-block;
+  width: 600px;
+  height: 400px;
+}
+
+.content > .contentMiddle > div:first-child > img {
+  width: 100%;
+  height: 100%;
+}
+
+.content > .contentMiddle > div:last-child {
+  position: absolute;
+  display: inline-block;
+  width: 600px;
+  height: 300px;
+  right: 0;
+  top: 200px;
+  background: #039dc2;
+  border-radius: 50px;
+}
+
+.contentBottom {
+  margin: 50px auto;
+  width: 1200px;
+  background: #ebebeb;
+}
+
+.contentBottom > div {
+  width: 1200px;
+  height: 250px;
+  background: lightcoral;
+}
+
+.contentBottom > div > div {
+  width: 400px;
+  height: 100%;
+  background: lightgreen;
+  display: inline-block;
+}
+
+
+.contentBottom > div > ul {
+  float: right;
+  width: 800px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contentBottom > div > ul > li {
+  width: 200px;
+  height: 100%;
+  background: #039dc2;
+}
+
+.contentBottom > ul {
+  width: 1200px;
+  height: 250px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contentBottom > ul > li {
+  margin: 50px;
+  width: 300px;
+  height: 150px;
+  background: lightgreen;
+}
+
+.contentBottom > ul > li:hover {
+  background: rgb(3, 157, 194);
+  transform: translate(10px);
+  transition: all 0.8s;
+}
+
+.list {
+  overflow: hidden;
+  list-style: none;
+  margin: 0 auto;
+  width: 1200px;
+  height: 400px;
+  background: lightsalmon;
+}
+
+.list > div {
+  display: inline-block;
+  width: 600px;
+  height: 400px;
+  background: lightgreen;
+}
+
+.list > div > div {
+  margin: 50px 100px;
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+  background: lightskyblue;
+}
+
+.list li {
+  float: right;
+  overflow: hidden;
+  margin: 50px 100px;
+  border-radius: 20px;
+  width: 400px;
+  height: 300px;
+  background: #039dc2;
+}
+
+.list li > h3 {
+  margin-top: 15px;
+}
+
+.list li > h3, .list li p {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.list a:hover {
+  color: #ffffff;
+}
