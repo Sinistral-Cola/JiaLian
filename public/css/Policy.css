@@ -88,9 +88,8 @@
     width: 1200px;
     height: 720px;
     margin: 0 auto;
-    margin-top: 100px;
     text-align: center;
-    background: lightpink;
+    /*background: lightpink;*/
 }
 #PolicyUnder span{
     font-size: 16px;
@@ -101,7 +100,7 @@
 #footer {
     width: 100%;
     height: 80px;
-    margin-top: 150px;
+    margin-top: 250px;
     text-align: center;
     line-height: 80px;
     color: #ebebeb;
@@ -111,21 +110,21 @@
     width: 100%;
     height: 550px;
     margin-top: 50px;
-    background: #888888;
+    /*background: #888888;*/
 
 }
 #PolicyUnderImg div{
     width: 100%;
     height: 175px;
     margin-bottom: 12.5px;
-    background: lightgreen;
+    /*background: lightgreen;*/
 }
 #PolicyUnderImg div div{
     width: 350px;
     height: 150px;
     margin-top: 12.5px;
     float: left;
-    background: lightblue;
+    /*background: lightblue;*/
 }
 #PolicyUnderImg div div:nth-child(1):hover {
     transform: translateY(-10px);
@@ -139,6 +138,17 @@
     right: 0;
 }
 
+
+#footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 350px;
+    bottom: 0;
+    text-align: center;
+    line-height: 80px;
+    color: #ebebeb;
+    background: #042a73;
+}
 
 
 

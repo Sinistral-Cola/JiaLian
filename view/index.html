@@ -2,14 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>首页</title>
+    <title>嘉联</title>
     <link rel="stylesheet" href="../public/css/public.css">
     <link rel="stylesheet" href="../public/css/index.css">
-    <script src="../public/js/Jquery.js"></script>
+    <link rel="stylesheet" href="../public/css/Animate.css">
+    <link rel="icon" href="../public/img/logo.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <script src="../public/js/Jquery.js"></script>
+
 </head>
+
 <body>
+
 <div class="swiper-container">
     <header>
         <div class="header-bar">
@@ -29,149 +34,130 @@
             </div>
         </div>
         <div class="header-nav">
-            <div class="nav-logo">企业logo+网页名称</div>
+            <div class="nav-logo">
+                <img src="../public/img/logo.png" alt="">
+            </div>
             <ul class="nav-list">
-                <li><a class="nav-a" href="../view/index.html">首页</a></li>
-                <li><a class="nav-a" href="../view/crossBorderECommerce.html">跨境电商</a></li>
-                <li><a class="nav-a" href="../view/Cross-border-Logistics.html">供应链服务</a></li>
-                <li><a class="nav-a" href="../view/Comprehensive%20service.html">基础服务</a></li>
-                <li><a class="nav-a" href="../view/Financing.html">金融服务</a></li>
-                <li><a class="nav-a" href="">海外投资</a></li>
-                <li><a class="nav-a" href="../view/Declare.html">政策申报</a></li>
-                <li><a class="nav-a" href="../view/About.html">关于我们</a></li>
+                <li><a class="nav-a" href="index.html" id="first">首页</a></li>
+                <li><a class="nav-a" href="crossBorderECommerce.html" id="second">跨境电商</a></li>
+                <li><a class="nav-a" href="Cross-border-Logistics.html" id="third">供应链服务</a></li>
+                <li><a class="nav-a" href="Comprehensive%20service.html" id="fourth">基础服务</a></li>
+                <li><a class="nav-a" href="Financing.html" id="fifth">金融服务</a></li>
+                <li><a class="nav-a" href="overseasInvestment.html" id="sixth">海外投资</a></li>
+                <li><a class="nav-a" href="Declare.html" id="seventh">政策申报</a></li>
+                <li><a class="nav-a" href="About.html" id="eighth">关于我们</a></li>
             </ul>
         </div>
         <div class="drop_downs">
             <ul class="drop_down2">
-                <li><a class="down-a" href="../view/crossBorderECommerce.html">全球开店</a></li>
-                <li><a class="down-a" href="../view/brandsGoOverseas.html">品牌出海</a></li>
-                <li><a class="down-a" href="../view/replaceOperation.html">代运营</a></li>
+                <li><a class="down-a" href="crossBorderECommerce.html">全球开店</a></li>
+                <li><a class="down-a" href="brandsGoOverseas.html">品牌出海</a></li>
+                <li><a class="down-a" href="replaceOperation.html">代运营</a></li>
             </ul>
             <ul class="drop_down3">
-                <li><a class="down-a" href="../view/Cross-border-Logistics.html">跨境物流</a></li>
-                <li><a class="down-a" href="../view/Overseas-warehouse.html">海外仓</a></li>
-                <li><a class="down-a" href="../view/Supplier.html">找供应商</a></li>
-                <li><a class="down-a" href="../view/Supplier-settlement.html">供应商入驻</a></li>
-                <li><a class="down-a" href="">代采代发</a></li>
+                <li><a class="down-a" href="Cross-border-Logistics.html">跨境物流</a></li>
+                <li><a class="down-a" href="Overseas-warehouse.html">海外仓</a></li>
+                <li><a class="down-a" href="Supplier.html">找供应商</a></li>
+                <li><a class="down-a" href="Supplier-settlement.html">供应商入驻</a></li>
+                <li><a class="down-a" href="Agent.html">代采代发</a></li>
             </ul>
             <ul class="drop_down4">
-                <li><a class="down-a" href="../view/Comprehensive%20service.html">报关</a></li>
-                <li><a class="down-a" href="../view/Rebates.html">退税</a></li>
-                <li><a class="down-a" href="../view/Policy.html">税筹规划</a></li>
+                <li><a class="down-a" href="Comprehensive%20service.html">报关</a></li>
+                <li><a class="down-a" href="Rebates.html">外汇</a></li>
+                <li><a class="down-a" href="TaxRebates.html">退税</a></li>
+                <li><a class="down-a" href="Policy.html">税筹规划</a></li>
+
             </ul>
             <ul class="drop_down5">
-                <li><a class="down-a" href="../view/Financing.html">融资</a></li>
-                <li><a class="down-a" href="../view/Exchange.html">结汇</a></li>
-                <li><a class="down-a" href="../view/Credit.html">信贷</a></li>
-                <li><a class="down-a" href="../view/Corporation.html">信保</a></li>
-                <li><a class="down-a" href="../view/Fund.html">基金</a></li>
+                <li><a class="down-a" href="Financing.html">融资</a></li>
+<!--                <li><a class="down-a" href="">结汇</a></li>-->
+                <li><a class="down-a" href="Credit.html">信贷</a></li>
+                <li><a class="down-a" href="Corporation.html">信保</a></li>
+                <li><a class="down-a" href="Fund.html">基金</a></li>
             </ul>
             <ul class="drop_down6">
-                <li><a class="down-a" href="">跨境投资备案</a></li>
-                <li><a class="down-a" href="">投资路径优化</a></li>
-                <li><a class="down-a" href="">离岸公司注册</a></li>
-                <li><a class="down-a" href="">国际商标注册</a></li>
-                <li><a class="down-a" href="">海外上市辅导</a></li>
+                <li><a class="down-a" href="overseasInvestment.html">跨境投资备案</a></li>
+                <li><a class="down-a" href="overseasInvestment-companyRegistration.html">投资路径优化</a></li>
+                <li><a class="down-a" href="overseasInvestment-invest.html">离岸公司注册</a></li>
+                <li><a class="down-a" href="overseasInvestment-listed.html">国际商标注册</a></li>
+                <li><a class="down-a" href="overseasInvestment-trademark.html">海外上市辅导</a></li>
             </ul>
             <ul class="drop_down8">
-                <li><a class="down-a" href="../view/About.html">公司简介</a></li>
-                <li><a class="down-a" href="../view/Cooperate.html">商务合作</a></li>
+                <li><a class="down-a" href="About.html">公司简介</a></li>
+                <li><a class="down-a" href="Cooperate.html">商务合作</a></li>
             </ul>
         </div>
     </header>
     <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="https://img.alicdn.com/imgextra/i4/O1CN01w5SAIX1R7oc7f7H6I_!!6000000002065-0-tps-1920-592.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="https://img.alicdn.com/imgextra/i2/O1CN01OZWUhf23vElgWhLuH_!!6000000007317-2-tps-1920-592.png" alt=""></div>
-        <div class="swiper-slide"><img src="https://img.alicdn.com/imgextra/i2/O1CN01FuO7831ueRhhv2lFv_!!6000000006062-2-tps-1920-592.png" alt=""></div>
-        <div class="swiper-slide"><img src="https://img.alicdn.com/tfs/TB1bdzvGAL0gK0jSZFxXXXWHVXa-3360-1060.png" alt=""></div>
-        <div class="swiper-slide"><img src="https://img.alicdn.com/imgextra/i1/O1CN01PFusuw25kMZbXcBIr_!!6000000007564-2-tps-1920-592.png" alt=""></div>
+        <div class="swiper-slide"><img
+                src="https://img.alicdn.com/imgextra/i4/O1CN01w5SAIX1R7oc7f7H6I_!!6000000002065-0-tps-1920-592.jpg"
+                alt=""></div>
+        <div class="swiper-slide"><img
+                src="https://img.alicdn.com/imgextra/i2/O1CN01OZWUhf23vElgWhLuH_!!6000000007317-2-tps-1920-592.png"
+                alt=""></div>
+        <div class="swiper-slide"><img
+                src="https://img.alicdn.com/imgextra/i2/O1CN01FuO7831ueRhhv2lFv_!!6000000006062-2-tps-1920-592.png"
+                alt=""></div>
+        <div class="swiper-slide"><img src="https://img.alicdn.com/tfs/TB1bdzvGAL0gK0jSZFxXXXWHVXa-3360-1060.png"
+                                       alt=""></div>
+        <div class="swiper-slide"><img
+                src="https://img.alicdn.com/imgextra/i1/O1CN01PFusuw25kMZbXcBIr_!!6000000007564-2-tps-1920-592.png"
+                alt=""></div>
     </div>
+</div>
 
+<div class="first ">
+    <div class="first-one animated fadeInLeftBig">
+        <img src="../public/img/flag7.jpg" alt="">
+        <p class="first-two">跨境电商</p>
+        <p class="first-three">通过平台开店、独立站搭建、培训与运营指导等服务，为准备开展ToC跨境业务的企业提供一站式解决方案</p>
+    </div>
+    <div class="first-one animated fadeInDownBig">
+        <img src="../public/img/flag8.jpg" alt="">
+        <p class="first-two">供应链服务</p>
+        <p class="first-three">通过国际物流一键下单、对接海外仓、货源供应商推荐、代采代发等服务，为准备或已经开展跨境业务的企业提供成本最优的供应链解决方案</p>
+    </div>
+    <div class="first-one animated fadeInRightBig">
+        <img src="../public/img/flag9.jpg" alt="">
+        <p class="first-two">基础服务</p>
+        <p class="first-three">通过报关、报检、外汇、退税、税筹规划等平台订单服务，为已经开展跨境业务的企业提供方便快捷、安全可靠的全链路通关解决方案</p>
+    </div>
 </div>
-<div class="about">
-    <div class="aboutBox">
-        <div class="title">
-            <p>关于XXX</p>
-            <p>ABOUT XXX</p>
-            <div></div>
-        </div>
-        <div class="content">
-            <div class="gong-si-img">公司图片</div>
-            <div class="gong-si-introduce">
-                <p>XXXXXXXXXX公司名</p>
-                <span>公司简介<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></span>
-                <div><a href="">MORE</a></div>
+<div class="first">
+    <div class="first-one" id="one">
+        <img src="../public/img/flag1.jpg" alt="">
+        <p class="first-two">金融服务</p>
+        <p class="first-three">通过融资咨询、信用贷款、信用保险、基金入股等金融产品，为跨境中小企业拓展融资新渠道</p>
+    </div>
+    <div class="first-one" id="two">
+        <img src="../public/img/flag2.jpg" alt="">
+        <p class="first-two">海外投资</p>
+        <p class="first-three">通过境外企业新设、并购、股权转让、海外上市辅导等服务，为有境外投融资需求的企业提供解决方案</p>
+    </div>
+    <div class="first-one" id="three">
+        <img src="../public/img/flag3.jpg" alt="">
+        <p class="first-two">政策申报</p>
+        <p class="first-three">通过解读政策文件、提炼并争取政策支持，为开展跨境业务的企业代理申报税收减免、资金扶持奖励、其他企业经营优惠政策等服务</p>
+    </div>
+</div>
 
-            </div>
-        </div>
-    </div>
-</div>
-<div class="range">
-    <div class="rangeBox">
-        <div class="title">
-            <p>业务范围</p>
-            <p>SCOPE OF BUSINESS</p>
-            <div></div>
-        </div>
-        <div class="content">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><!--第一页轮播图-->
-                        <ul>
-                            <li>
-                                <img src="http://15158155.s21i.faiusr.com/2/ABUIABACGAAgns6V0AUoiPyMmQUwyAE4lgE.jpg.webp" alt="">
-                                <span>跨境电商</span>
-                            </li>
-                            <li>
-                                <img src="http://15158155.s21i.faiusr.com/2/ABUIABACGAAglc6V0AUo3ubMngMwyAE4lgE.jpg.webp" alt="">
-                                <span>供应链服务</span>
-                            </li>
-                            <li>
-                                <img src="http://15158155.s21i.faiusr.com/2/ABUIABACGAAgi8yV0AUortTfnwMwyAE4lgE.jpg.webp" alt="">
-                                <span>基础服务</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="swiper-slide"><!--第二页轮播图-->
-                        <ul>
-                            <li>
-                                <img src="http://15158155.s21i.faiusr.com/2/ABUIABACGAAgkMyV0AUok8TkuQIwyAE4lgE.jpg.webp" alt="">
-                                <span>金融服务</span>
-                            </li>
-                            <li>
-                                <img src="http://15158155.s21i.faiusr.com/2/ABUIABACGAAgms6V0AUo0MyLUTDIATiWAQ.jpg.webp" alt="">
-                                <span>海外投资</span>
-                            </li>
-                            <li>
-                                <img src="http://15158155.s21i.faiusr.com/2/ABUIABACGAAgmsyV0AUo3YCKpAUwyAE4lgE.jpg.webp" alt="">
-                                <span>政策申报</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div><!--分页器。如果放置在swiper外面，需要自定义样式。-->
-                <div class="swiper-button-prev"></div><!--左箭头。如果放置在swiper外面，需要自定义样式。-->
-                <div class="swiper-button-next"></div><!--右箭头。如果放置在swiper外面，需要自定义样式。-->
-            </div>
-        </div>
-    </div>
-</div>
+
 <div class="news">
     <div class="newsBox">
-        <div class="title">
-            <p>新闻资讯</p>
+        <div class="title" id="four">
+            <p>政策申报</p>
             <p>NEWS INFORMATION</p>
             <div></div>
         </div>
         <div class="content">
-            <div class="news-content">
-                <p>新闻标题……</p>
+            <div class="news-content" id="five">
+                <p>政策申报……</p>
                 <p>2020.01.01</p><br>
                 <p>来源：………………………………………………………………………</p>
                 <span>简要内容：…………………………………………………………………………<br><br><br><br><br><br><br><br><br>…………………………………………………………………………………………</span>
             </div>
-            <div class="news-content">
-                <p>新闻标题……</p>
+            <div class="news-content" id="six">
+                <p>政策申报……</p>
                 <p>2020.01.01</p><br>
                 <p>来源：………………………………………………………………………</p>
                 <span>简要内容：…………………………………………………………………………<br><br><br><br><br><br><br><br><br>…………………………………………………………………………………………</span>
@@ -182,13 +168,16 @@
 <footer>
     <div class="footerC">
         <div class="logoBox">
-            logo
+            <img src="../public/img/logo.png" alt="">
         </div>
         <div class="introduceBox">
-            <p>XXXXX有限公司</p>
-            <p>咨询热线：XXXX-XXXXXXXX</p>
-            <p>电子邮箱：XXXXXXXXXXXXX</p>
-            <p>公司地址：XXXXXXXXXXXXX</p>
+            <p>嘉联信息咨询有限公司</p>
+            <br>
+            <p>咨询热线：18709858230</p>
+            <p>电子邮箱：1015397629@qq.com</p>
+            <p>公司地址：合肥市蜀山区望江西路69号
+                西湖国际广场A座2109-2112
+            </p>
         </div>
         <div class="aboutUs">
             <a href="">关于我们</a>
@@ -196,245 +185,187 @@
 
     </div>
 </footer>
+<div id="goBack">
+    <img src="../public/img/返回顶部.png" alt="111" style="height: 78px;width: 78px">
+</div>
 </body>
 </html>
 <script>
-    //轮播图
-    const mySwiper = new Swiper('.swiper-container', {
-        autoplay: true,
-        loop:true
-    })
-
-//页面滚动header变色
+    var topBtn = document.getElementById('goBack');
+    // 获取视窗高度
+    var winHeight = document.documentElement.clientHeight;
+    window.onscroll = function () {
+        // 获取页面向上滚动距离，chrome浏览器识别document.body.scrollTop，而火狐识别document.documentElement.scrollTop，这里做了兼容处理
+        var toTop = document.documentElement.scrollTop || document.body.scrollTop;
+        // 如果滚动超过一屏，返回顶部按钮出现，反之隐藏
+        if (toTop >= winHeight - 800) {
+            topBtn.style.display = 'block';
+        } else {
+            topBtn.style.display = 'none';
+        }
+    }
+    topBtn.onclick = function () {
+        var timer = setInterval(function () {
+            var toTop = document.documentElement.scrollTop || document.body.scrollTop;
+            // 判断是否到达顶部，到达顶部停止滚动，没到达顶部继续滚动
+            if (toTop == 0) {
+                clearInterval(timer);
+            } else {
+                // 设置滚动速度
+                var speed = Math.ceil(toTop / 8);
+                // 页面向上滚动
+                document.documentElement.scrollTop = document.body.scrollTop = toTop - speed;
+            }
+        }, 20);
+    }
     $(function () {
         $(window).scroll(function () {
-            if ($(window).scrollTop()>0) {
-                console.log(1)
-                $("header").css('background','rgba(255,255,255,1)');
-                $(".nav-a").css('color','rgb(1,47,177)')
-                $(".nav-logo").css('color','rgb(1,47,177)')
-                $(".bar-menu>a").css('color','rgb(1,47,177)')
-                $("svg>path").css('fill','rgb(1,47,177)')
-            }
-            else {
-                $("header").css('background','rgba(255,255,255,0)');
-                $(".nav-a").css('color','rgba(255,255,255,1)')
-                $(".nav-logo").css('color','rgba(255,255,255,1)')
-                $(".bar-menu>a").css('color','rgba(255,255,255,1)')
-                $("svg>path").css('fill','rgba(255,255,255,1)')
+            console.log($(document).scrollTop())
+            if ($(document).scrollTop() > 220) {
+                $('#one').addClass('animated fadeInLeftBig')
+                $('#two').addClass('animated fadeInDownBig')
+                $('#three').addClass('animated fadeInRightBig')
             }
         })
-    })
-//hover触发header变色
-    $(function () {
-        $("header").hover(function () {
-            $("header").css('background','rgba(255,255,255,1)')
-            $(".bar-menu>a").css('color','#042a73')
-            $("svg>path").css('fill','#042a73')
-            $(".nav-logo").css('color','#042a73')
-            $(".nav-list > li > a").css('color','#042a73')
-        },function () {
-            $("header").css('background','rgba(255,255,255,0)')
-            $(".bar-menu>a").css('color','#fff')
-            $("svg>path").css('fill','#fff')
-            $(".nav-logo").css('color','#fff')
-            $(".nav-list > li > a").css('color','#fff')
+        $(window).scroll(function () {
+            console.log($(document).scrollTop())
+            if ($(document).scrollTop() > 605) {
+                $('#five').addClass('animated fadeInLeftBig')
+                $('#four').addClass('animated fadeInDownBig')
+                $('#six').addClass('animated fadeInRightBig')
+            }
         })
     })
 
-//下拉框
-    const a = document.getElementsByClassName('nav-a')
-    console.log(a)
+    $(function () {
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 0) {
+                $("header").css('background', 'rgba(255,255,255,1)');
+                $(".nav-a").css('color', 'rgb(0,0,0)')
+                $(".nav-logo").css('color', 'rgb(0,0,0)')
+                $(".bar-menu>a").css('color', 'rgb(0,0,0)')
+                $("header svg>path").css('fill', 'rgb(0,0,0)')
+            } else {
+                $("header").css('background', 'rgba(255,255,255,0)');
+                $(".nav-a").css('color', 'rgba(255,255,255,1)')
+                $(".nav-logo").css('color', 'rgba(255,255,255,1)')
+                $(".bar-menu>a").css('color', 'rgba(255,255,255,1)')
+                $("header svg>path").css('fill', 'rgba(255,255,255,1)')
+            }
+        })
+        $('header').hover(
+            () => {
+                if ($(document).scrollTop() == 0) {
+                    $("header").css('background', 'rgba(255,255,255,1)')
+                    $(".bar-menu>a").css('color', 'rgb(0,0,0)')
+                    $("header svg>path").css('fill', 'rgb(0,0,0)')
+                    $(".nav-logo").css('color', 'rgb(0,0,0)')
+                    $(".nav-list > li > a").css('color', 'rgb(0,0,0)')
+                }
+            },
+            () => {
+                if ($(document).scrollTop() == 0) {
+                    $("header").css('background', 'rgba(255,255,255,.1)')
+                    $(".bar-menu>a").css('color','#fff')
+                    $("header svg>path").css('fill', '#fff')
+                    $(".nav-logo").css('color', '#fff')
+                    $(".nav-list > li > a").css('color', '#fff')
+                }
+            })
+    })
+
+
+    //下拉框
+    const second = document.getElementById('second')
+    const third = document.getElementById('third')
+    const fourth = document.getElementById('fourth')
+    const fifth = document.getElementById('fifth')
+    const sixth = document.getElementById('sixth')
+    const eighth = document.getElementById('eighth')
+
     const down2 = document.getElementsByClassName('drop_down2')
     const down3 = document.getElementsByClassName('drop_down3')
     const down4 = document.getElementsByClassName('drop_down4')
     const down5 = document.getElementsByClassName('drop_down5')
     const down6 = document.getElementsByClassName('drop_down6')
     const down8 = document.getElementsByClassName('drop_down8')
-    const downA = document.getElementsByClassName('down-a')
-
-    a[1].onmouseenter = function () {
-        down2[0].style.opacity = '1'
-    }
-    a[1].onmouseout = function () {
-        down2[0].style.opacity = '0'
-    }
-    downA[0].onmouseenter = function () {
-        down2[0].style.opacity = '1'
-    }
-    downA[0].onmouseout = function () {
-        down2[0].style.opacity = '0'
-    }
-    downA[1].onmouseenter = function () {
-        down2[0].style.opacity = '1'
-    }
-    downA[1].onmouseout = function () {
-        down2[0].style.opacity = '0'
-    }
-    downA[2].onmouseenter = function () {
-        down2[0].style.opacity = '1'
-    }
-    downA[2].onmouseout = function () {
-        down2[0].style.opacity = '0'
+    second.onmouseenter = function () {
+        down2[0].style.display = 'block'
+        down2[0].onmouseenter = function () {
+            down2[0].style.display = 'block'
+        }
+        down2[0].onmouseleave = function () {
+            down2[0].style.display = 'none'
+        }
+        second.onmouseleave = function () {
+            down2[0].style.display = 'none'
+        }
     }
 
-    a[2].onmouseenter = function () {
-        down3[0].style.opacity = '1'
-    }
-    a[2].onmouseout = function () {
-        down3[0].style.opacity = '0'
-    }
-    downA[3].onmouseenter = function () {
-        down3[0].style.opacity = '1'
-    }
-    downA[3].onmouseout = function () {
-        down3[0].style.opacity = '0'
-    }
-    downA[4].onmouseenter = function () {
-        down3[0].style.opacity = '1'
-    }
-    downA[4].onmouseout = function () {
-        down3[0].style.opacity = '0'
-    }
-    downA[5].onmouseenter = function () {
-        down3[0].style.opacity = '1'
-    }
-    downA[5].onmouseout = function () {
-        down3[0].style.opacity = '0'
-    }
-    downA[6].onmouseenter = function () {
-        down3[0].style.opacity = '1'
-    }
-    downA[6].onmouseout = function () {
-        down3[0].style.opacity = '0'
-    }
-    downA[7].onmouseenter = function () {
-        down3[0].style.opacity = '1'
-    }
-    downA[7].onmouseout = function () {
-        down3[0].style.opacity = '0'
+    third.onmouseenter = function () {
+        down3[0].style.display = 'block'
+        down3[0].onmouseenter = function () {
+            down3[0].style.display = 'block'
+        }
+        down3[0].onmouseleave = function () {
+            down3[0].style.display = 'none'
+        }
+        third.onmouseleave = function () {
+            down3[0].style.display = 'none'
+        }
     }
 
-    a[3].onmouseenter = function () {
-        down4[0].style.opacity = '1'
-    }
-    a[3].onmouseout = function () {
-        down4[0].style.opacity = '0'
-    }
-    downA[8].onmouseenter = function () {
-        down4[0].style.opacity = '1'
-    }
-    downA[8].onmouseout = function () {
-        down4[0].style.opacity = '0'
-    }
-    downA[9].onmouseenter = function () {
-        down4[0].style.opacity = '1'
-    }
-    downA[9].onmouseout = function () {
-        down4[0].style.opacity = '0'
-    }
-    downA[10].onmouseenter = function () {
-        down4[0].style.opacity = '1'
-    }
-    downA[10].onmouseout = function () {
-        down4[0].style.opacity = '0'
+    fourth.onmouseenter = function () {
+        down4[0].style.display = 'block'
+        down4[0].onmouseenter = function () {
+            down4[0].style.display = 'block'
+        }
+        down4[0].onmouseleave = function () {
+            down4[0].style.display = 'none'
+        }
+        fourth.onmouseleave = function () {
+            down4[0].style.display = 'none'
+        }
     }
 
-
-    a[4].onmouseenter = function () {
-        down5[0].style.opacity = '1'
-    }
-    a[4].onmouseout = function () {
-        down5[0].style.opacity = '0'
-    }
-    downA[11].onmouseenter = function () {
-        down5[0].style.opacity = '1'
-    }
-    downA[11].onmouseout = function () {
-        down5[0].style.opacity = '0'
-    }
-    downA[12].onmouseenter = function () {
-        down5[0].style.opacity = '1'
-    }
-    downA[12].onmouseout = function () {
-        down5[0].style.opacity = '0'
-    }
-    downA[13].onmouseenter = function () {
-        down5[0].style.opacity = '1'
-    }
-    downA[13].onmouseout = function () {
-        down5[0].style.opacity = '0'
-    }
-    downA[14].onmouseenter = function () {
-        down5[0].style.opacity = '1'
-    }
-    downA[14].onmouseout = function () {
-        down5[0].style.opacity = '0'
-    }
-    downA[15].onmouseenter = function () {
-        down5[0].style.opacity = '1'
-    }
-    downA[15].onmouseout = function () {
-        down5[0].style.opacity = '0'
+    fifth.onmouseenter = function () {
+        down5[0].style.display = 'block'
+        down5[0].onmouseenter = function () {
+            down5[0].style.display = 'block'
+        }
+        down5[0].onmouseleave = function () {
+            down5[0].style.display = 'none'
+        }
+        fifth.onmouseleave = function () {
+            down5[0].style.display = 'none'
+        }
     }
 
-
-    a[5].onmouseenter = function () {
-        down6[0].style.opacity = '1'
-    }
-    a[5].onmouseout = function () {
-        down6[0].style.opacity = '0'
-    }
-    downA[16].onmouseenter = function () {
-        down6[0].style.opacity = '1'
-    }
-    downA[16].onmouseout = function () {
-        down6[0].style.opacity = '0'
-    }
-    downA[17].onmouseenter = function () {
-        down6[0].style.opacity = '1'
-    }
-    downA[17].onmouseout = function () {
-        down6[0].style.opacity = '0'
-    }
-    downA[18].onmouseenter = function () {
-        down6[0].style.opacity = '1'
-    }
-    downA[18].onmouseout = function () {
-        down6[0].style.opacity = '0'
-    }
-    downA[19].onmouseenter = function () {
-        down6[0].style.opacity = '1'
-    }
-    downA[19].onmouseout = function () {
-        down6[0].style.opacity = '0'
-    }
-    downA[20].onmouseenter = function () {
-        down6[0].style.opacity = '1'
-    }
-    downA[20].onmouseout = function () {
-        down6[0].style.opacity = '0'
+    sixth.onmouseenter = function () {
+        down6[0].style.display = 'block'
+        down6[0].onmouseenter = function () {
+            down6[0].style.display = 'block'
+        }
+        down6[0].onmouseleave = function () {
+            down6[0].style.display = 'none'
+        }
+        sixth.onmouseleave = function () {
+            down6[0].style.display = 'none'
+        }
     }
 
-    a[7].onmouseenter = function () {
-        down8[0].style.opacity = '1'
+    eighth.onmouseenter = function () {
+        down8[0].style.display = 'block'
+        down8[0].onmouseenter = function () {
+            down8[0].style.display = 'block'
+        }
+        down8[0].onmouseleave = function () {
+            down8[0].style.display = 'none'
+        }
+        eighth.onmouseleave = function () {
+            down8[0].style.display = 'none'
+        }
     }
-    a[7].onmouseout = function () {
-        down8[0].style.opacity = '0'
-    }
-    downA[21].onmouseenter = function () {
-        down8[0].style.opacity = '1'
-    }
-    downA[21].onmouseout = function () {
-        down8[0].style.opacity = '0'
-    }
-    downA[22].onmouseenter = function () {
-        down8[0].style.opacity = '1'
-    }
-    downA[22].onmouseout = function () {
-        down8[0].style.opacity = '0'
-    }
-
 
     /*//swiper
     var mySwiper = new Swiper('.swiper-contianer', {
@@ -457,3 +388,4 @@
         },
     })*/
 </script>
+<!--<script src="../public/js/public.js"></script>-->

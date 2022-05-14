@@ -1,63 +1,86 @@
-html, body, ul, li ,p,h1,h3,h4,h2{
+html, body, ul, li {
   margin: 0;
   padding: 0;
 }
 
+html, body {
+  background: rgb(241,243,247);
+}
+.fontColor{
+  font-size: 18px;
+  color: #007aff;
+}
 .topImg {
   width: 100%;
   height: 300px;
-  background: lightseagreen;
 }
 
-.contentTop {
+.contentBig > div {
+  margin: 30px auto;
   width: 1200px;
-  margin: 0 auto;
-  background: #ebebeb;
 }
 
-.contentTop > ul {
-  margin: 0 auto;
-  width: 840px;
-  height: 300px;
-  background: lightseagreen;
-  display: flex;
-  justify-content: space-around;
+.programOne:hover {
+  box-shadow: 0 2px 23px 0 #E4E4E4;
+  transform: scale(1.01);
+  transition: all .2s ease
 }
 
-.contentTop > ul > li {
-  list-style: none;
-  width: 200px;
+.programOne {
+  margin-left: 100px;
+  float: left;
+  width: 400px;
   height: 100%;
-  background: #039dc2;
-}
-
-.contentMiddle {
-  margin: 0 auto;
-  width: 1200px;
-}
-.contentBig>div {
-  margin: 0 auto;
-  width: 1200px;
-  height: 500px;
-  background: lightgoldenrodyellow;
-}
-.contentMiddle > ul {
-  margin: 0 auto;
-  width: 1200px;
-  height: 100%;
-  background: rgb(5, 206, 241);
-  display: flex;
-  justify-content: space-around;
-}
-
-.contentMiddle > ul > li {
-  width: 300px;
   display: inline-block;
-}
-.contentBottom{
-  margin: 0 auto;
-  width: 1200px;
-  height: 150px;
-  background: lightsalmon;
+  text-indent: 2em;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 0 15px;
+  line-height: 30px;
 
+}
+
+h2 {
+  color: rgb(74,130,229);
+}
+
+.programOne > ul {
+  width: 100%;
+  height: 200px;
+  list-style: none;
+}
+
+.programOne > ul > li {
+  font-size: 14px;
+  width: 100%;
+  height: 80px;
+  border-radius: 30px;
+  text-indent: 2em;
+  color: rgb(102, 102, 102);
+}
+.programOne > ul > li:last-child{
+  margin-top: 15px;
+}
+.programTwo {
+  margin-right: 100px;
+  display: inline-block;
+  float: right;
+}
+#goBack {
+  width: 78px;
+  height: 78px;
+  position: fixed;
+  bottom: 100px;
+  right: 0;
+}
+
+#footer {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  line-height: 80px;
+  color: #ebebeb;
+  background: #042a73;
 }

@@ -10,88 +10,111 @@
     background: lightpink;
 }
 
-#swiper {
-    width: 100%;
-    height: 400px;
-    background: #042a73
+#Swiper img {
+    margin: 0 auto;
+    cursor: default;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    outline: none;
+    background-size: cover;
 }
 
-#FinancingTop {
-    width: 1200px;
-    height: 355px;
+#AboutUs {
     text-align: center;
-    margin: 50px auto;
-    /*background: lightpink;*/
+    margin: 80px auto 30px;
+    width: 400px;
+    height: 100px;
+    /*background: #042a73;*/
+    font-size: 28px;
+    color: #1E50AE;
 }
 
-#FinancingTop h1 {
-    font-size: 48px;
-    color: rgb(30, 80, 174);
-}
-
-#FinancingTop span {
-    font-size: 14px;
-    color: #4B4B4B;
-}
-
-#FinancingTop span {
+#AboutUs p {
+    margin: 15px auto 0;
     font-size: 20px;
+    color: #949494;
 }
 
-#FinancingBack {
-    width: 100%;
-    height: 850px;
-    text-align: center;
-    background: url("../img/background1.jpg");
-    background-size: 100% 900px;
-}
-#FinancingBackImg{
-    width: 1400px;
-    height: 500px;
+#AboutUsWords {
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-
-}
-#FinancingBackImg div{
-    width: 320px;
+    width: 994px;
     height: 250px;
-    margin-top: 20px;
-    margin-left: 25px;
-    background: pink;
-}
-#FinancingBackImg div div{
-    width: 320px;
-    height: 80px;
-    margin-left: 0px;
-    margin-top: -5px;
-    background: lightblue;
-}
-#About{
-    width: 100%;
-    height: 500px;
     text-align: center;
-    background: #e5e8ef;
+    /*text-align: center;*/
 }
-#AboutMiddle{
-    width: 1200px;
-    height: 300px;
+
+#AboutUsWords span {
+    font-size: 14px;
+    line-height: 30px;
+    color: #2B2B2B;
+}
+
+#Founds {
+    width: 100%;
+    height: 800px;
+    background-image: url("https://14003955.s61i.faiusr.com/2/AD0I893WBhACGAAgtJDkyQUoqLOYqQIwgA84wAc.jpg");
     margin: 0 auto;
-    background: pink;
-    display: flex;
-    justify-content: space-around;
+    margin-top: -80px;
+    cursor: default;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    outline: none;
+    background-size: cover;
+    position: relative;
 }
-#AboutMiddle div{
-    width: 250px;
+
+#FoundsWords {
+    text-align: center;
+    margin: 60px auto 30px;
+    width: 300px;
+    height: 100px;
+    /*background: #042a73;*/
+    font-size: 28px;
+    color: #1E50AE;
+}
+
+#FoundsWords p {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+#FoundsWords span {
+    color: white;
+    font-size: 30px;
+}
+
+#FoundsBox {
+    margin: 100px auto 0;
+    position: relative;
+    width: 1400px;
     height: 200px;
-    margin: 50px auto;
-    background: lightblue;
+    margin-top: 150px;
+    /*background: #c2dcdb;*/
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    text-align: center;
 }
+
+#FoundsBox div {
+    margin-right: 20px;
+}
+
+/*#FoundsBox p {*/
+/*    margin: -190px 0 0 0;*/
+/*}*/
+#FoundsBox .Photo {
+    margin: 45px auto 0;
+}
+
 #footer {
     width: 100%;
     height: 80px;
+    margin-top: 90px;
     text-align: center;
     line-height: 80px;
     color: #ebebeb;

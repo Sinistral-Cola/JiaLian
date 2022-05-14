@@ -98,7 +98,7 @@
     height: 450px;
     margin: 0 auto;
     margin-top: -450px;
-    background: #ebebeb;
+    /*background: #ebebeb;*/
 }
 
 #ServeTopBodyImg {
@@ -108,7 +108,10 @@
     position: relative;
     top: 25px;
     margin-top: 20px;
-    background: lightgreen;
+    /*background: lightgreen;*/
+    background: url("../../public/img/Fly.png.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 #ServeTopBodyImg:hover {
@@ -123,7 +126,7 @@
     top: 50px;
     display: flex;
     justify-content: space-around;
-    background: lightblue;
+    /*background: lightblue;*/
 }
 
 #ServeTopBodyText > div {
@@ -143,7 +146,7 @@
     width: 1200px;
     height: 200px;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 270px;
     text-align: center;
     /*background: lightgreen;*/
     border-bottom: 0.5px solid darkgray;
@@ -197,7 +200,8 @@
     width: 260px;
     height: 220px;
     margin-left: 10px;
-    background: lightgreen;
+    /*background: lightgreen;*/
+
 }
 
 #ServeMiddleTwoImg3 {
@@ -223,19 +227,23 @@
     width: 1200px;
     height: 200px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 250px;
     text-align: center;
     /*background: lightgreen;*/
 }
 
 #ServeUnderText > h2 {
     font-size: 26px;
+    position: relative;
+    top: 80px;
     color: #666666;
     font-family: "微软雅黑";
 }
 
 #ServeUnderText > span {
     font-size: 12px;
+    position: relative;
+    top: 80px;
     color: #666666;
     font-family: "微软雅黑";
     margin-top: 20px;
@@ -256,7 +264,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    background: lightpink;
+    /*background: lightpink;*/
 }
 
 #ServeUnder > div {
@@ -265,8 +273,14 @@
     margin: 0 auto;
     margin-top: 25px;
     display: flex;
-    justify-content: space-between;
-    background: lightgreen;
+    text-align: center;
+    /*justify-content: space-between;*/
+    /*background: lightgreen;*/
+}
+#ServeUnder > div h2{
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
 }
 #ServeUnder > div:hover {
     transform: scale(1.05);
@@ -290,6 +304,16 @@
     right: 0;
 }
 
+
+#footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 150px;
+    text-align: center;
+    line-height: 80px;
+    color: #ebebeb;
+    background: #042a73;
+}
 
 
 

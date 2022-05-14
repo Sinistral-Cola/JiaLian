@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /*开始背景图*/
 #back {
     margin: 0 auto;
@@ -16,6 +17,7 @@ body {
     outline: none;
     background-size: cover;
 }
+
 /*公司简介*/
 #aboutWord {
     margin: 50px auto 20px;
@@ -24,39 +26,41 @@ body {
     font-size: 35px;
     color: #2B2B2B;
     text-align: center;
-
     /*background: chartreuse;*/
 }
+
 #about {
     width: 100%;
-    height: 380px;
+    height: 580px;
     margin: 0 auto;
     position: relative;
-    /*left: 30px;*/
     background-image: url("http://11056517.s61i.faiusr.com/2/AD0IheuiBRACGAAg97DuwgUo9NDg9gQwgA84jwQ.jpg");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
 }
+
 #about #WordsBox {
     margin: 0 auto;
     width: 430px;
     height: 300px;
     position: relative;
     left: -350px;
-    top: 20px;
+    top: 100px;
 }
+
 #about #photo {
     margin: 0 auto;
-    width: 430px;
-    height: 324px;
-    background-image: url("../img/b.webp");
+    width: 530px;
+    height: 530px;
+    background-image: url("https://www.vanhigroup.com/index/image/company-info.png");
     background-repeat: no-repeat;
     position: relative;
     top: -300px;
     left: 280px;
 }
+
 /*优秀员工*/
 #outstanding {
     margin: 40px auto;
@@ -66,31 +70,45 @@ body {
     color: #2B2B2B;
     text-align: center;
     line-height: 80px;
+    /*background: #2B2B2B;*/
 }
+
+
 #staff {
+    position: relative;
     margin: 0 auto;
-    width: 1200px;
-    height: 300px;
-    /*background: cornflowerblue;*/
+    width: 100%;
+    height: 400px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#staff .AA {
+    position: absolute;
+    top: 1px;
 
 }
-#staff div {
-    width: 200px;
-    height: 300px;
-    background: #c2dcdb;
+
+#staff .Staffwords{
+    margin: -200px 0 0 0;
 }
+hr{
+    margin: -59px 0 0 0;
+    border: 0.5px dashed #e0dede;
+}
+
 /*管理*/
-#manage{
-    margin:  60px auto;
+#manage {
+    margin: 60px auto;
     position: relative;
     width: 100%;
     height: 580px;
     text-align: center;
     /*background: blue;*/
 }
-#manageWords{
+
+#manageWords {
     margin: 40px auto;
     width: 300px;
     height: 80px;
@@ -100,190 +118,172 @@ body {
     line-height: 80px;
 }
 
-#manage p{
-    color: #949494;
-    font-size: 14px;
-    line-height: 30px;
-}
 
-
-#managePhoto{
-    margin: 30px auto ;
+#managePhoto {
+    margin: 30px auto;
     width: 1130px;
     height: 320px;
+    /*text-align: center;*/
     display: flex;
     justify-content: space-between;
 }
-#FigureOne{
+
+#FigureOne {
     width: 233px;
-    height: 317px;
+    height: 417px;
     /*background: #f1eded;*/
     text-align: center;
     position: relative;
 }
-#FigureOne img{
-    width: 180px;
-    height: 180px;
+#FigureOne p{
+    position: absolute;
+    bottom: 51px;
+}
+#FigureOne img {
+    width: 200px;
+    height: 200px;
     position: absolute;
     top: 10px;
-    left: 25px;
+    left: 16px;
 }
-#FigureOne span{
+
+#FigureOne span {
     position: absolute;
     top: 220px;
-    left: 70px ;
+    left: 58px;
+    font-size: 20px;
 
 }
 
 
-#FigureTwo{
+#FigureTwo {
     width: 233px;
-    height: 317px;
+    height: 417px;
     /*background: #f1eded;*/
     text-align: center;
     position: relative;
 
 
 }
-#FigureTwo img{
-    width: 180px;
-    height: 180px;
+#FigureTwo p{
+    position: absolute;
+    bottom: 91px;
+}
+#FigureTwo img {
+    width: 200px;
+    height: 200px;
     position: absolute;
     top: 10px;
-    left: 25px;
+    left: 16px;
 
 }
-#FigureTwo span{
+
+#FigureTwo span {
     position: absolute;
     top: 220px;
-    left: 80px ;
+    left: 10px;
+    font-size: 20px;
+
 
 }
 
-#FigureThree{
+#FigureThree {
     width: 233px;
-    height: 317px;
+    height: 417px;
     /*background: #f1eded;*/
     text-align: center;
     position: relative;
 
 }
-
-#FigureThree img{
-    width: 180px;
-    height: 180px;
+#FigureThree p{
+    position: absolute;
+    bottom: 15px;
+}
+#FigureThree img {
+    width: 200px;
+    height: 200px;
     position: absolute;
     top: 10px;
-    left: 25px;
+    left: 16px;
 }
-#FigureThree span{
+
+#FigureThree span {
     position: absolute;
     top: 220px;
-    left: 60px ;
+    left: 78px;
+    font-size: 20px;
 
 }
 
-#FigureFour{
+#FigureFour {
     width: 233px;
-    height: 317px;
+    height: 417px;
     /*background: #f1eded;*/
     text-align: center;
     position: relative;
 }
-#FigureFour img{
-    width: 180px;
-    height: 180px;
+#FigureFour p{
+    position: absolute;
+    bottom: 51px;
+}
+#FigureFour img {
+    width: 200px;
+    height: 200px;
     position: absolute;
     top: 10px;
-    left: 25px;
+    left: 16px;
 }
-#FigureFour span{
+
+#FigureFour span {
     position: absolute;
     top: 220px;
-    left: 60px ;
+    left: 90px;
+    font-size: 20px;
 
 }
 
-#corporateCulture {
-    margin: 40px auto 20px;
+#cooperationsWords {
+    margin: 40px auto;
     width: 300px;
     height: 80px;
     font-size: 35px;
     color: #2B2B2B;
     text-align: center;
+    line-height: 80px;
+    /*background: #2B2B2B;*/
 }
 
-#CulturePhoto {
-    position: relative;
+#cooperations{
     margin: 0 auto;
     width: 1200px;
-    height: 370px;
-    /*background: #5890a5;*/
+    height: 200px;
+    /*background:red;*/
+    overflow: hidden;
 }
-
-#CulturePhoto #CulturePhotos {
+@keyframes cooperation{
+    0%{left: 0}
+    100%{left:-7030px}
+}
+#cooperation{
+    margin: 0 auto;
     position: relative;
-    width: 600px;
-    height: 370px;
-    /*background: red;*/
+    /*top: 30px;*/
+    width: 99999px;
+    height: 200px;
+    /*background: chartreuse;*/
+    animation: cooperation 30s linear infinite
+}
+#cooperation>img{
+    margin: 15px 15px 0px 15px;
+}
+#cooperation:hover{
+    animation-play-state: paused;
 }
 
-#CulturePhoto #CulturePhotos #A {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 260px;
-    height: 350px;
-    /*background:blue;*/
-    overflow: hidden;
-}
 
-#CulturePhoto #CulturePhotos #B {
-    width: 310px;
-    height: 190px;
-    position: absolute;
-    top: 10px;
-    left: 280px;
-    /*background: #5890a5;*/
-    overflow: hidden;
 
-}
 
-#CulturePhoto #CulturePhotos #C {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: 210px;
-    left: 280px;
-    /*background: #732684;*/
-    overflow: hidden;
 
-}
-
-#CulturePhoto #CulturePhotos #D {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: 210px;
-    left: 440px;
-    /*background: #4c8425;*/
-    overflow: hidden;
-
-}
-
-#CulturePhoto #CulturePhotos img:hover {
-    transform: scale(1.12);
-    transition: all .8s;
-}
-
-#CulturePhoto #CultureWords {
-    width: 580px;
-    height: 350px;
-    /*background: red;*/
-    position: absolute;
-    top: 10px;
-    left: 610px;
-}
 
 #purpose {
     margin: 50px auto;
@@ -303,6 +303,7 @@ body {
     height: 140px;
     text-align: center;
 }
+
 #purpose > #purposes > p {
     color: #ffffff;
     font-size: 26px;
@@ -312,4 +313,22 @@ body {
     color: #ffffff;
     font-size: 14px;
     line-height: 25px;
+}
+
+#goBack {
+    width: 78px;
+    height: 78px;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+}
+
+#footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 150px;
+    text-align: center;
+    line-height: 80px;
+    color: #ebebeb;
+    background: #042a73;
 }

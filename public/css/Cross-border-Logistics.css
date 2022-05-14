@@ -75,21 +75,20 @@ p, h1, div, img, body {
 
 .third-one {
     font-size: 24px;
-    color: #ffa500;
-    width: 96px;
-    margin: 0 auto;
+    color: #0701aa;
+    text-align: center;
 }
 
 .third-two {
     font-size: 16px;
-    color: rgba(255, 165, 0, 0.9);
-    width: 280px;
+    color: rgba(0, 4, 134, 0.9);
+  text-align:center;
     margin: 0 auto;
 }
 
 .third hr {
-    border: 0.5px rgba(255, 165, 0, 0.9) solid;
-    width: 300px;
+    border: 0.5px rgba(1, 15, 88, 0.9) solid;
+    width: 600px;
 }
 
 .third .third-three {
@@ -151,7 +150,7 @@ p, h1, div, img, body {
 
 .four {
     width: 100%;
-    height: 800px;
+    height:260px;
     /*background: #dbd8d8;*/
 }
 
@@ -164,13 +163,13 @@ p, h1, div, img, body {
 
 .four-center-one {
     font-size: 24px;
-    color: #ffa500;
+    color: #2600ff;
     width: 96px;
     margin: 0 auto;
 }
 
 .four-center hr {
-    border: 0.5px rgba(255, 165, 0, 0.9) solid;
+    border: 0.5px rgba(55, 0, 255, 0.9) solid;
     width: 300px;
 }
 
@@ -181,12 +180,33 @@ p, h1, div, img, body {
     font-size: 16px;
     margin: 0 auto;
 }
-
-.four-center img {
-    width: 800px;
-    height: 162px;
-    margin-left: -150px;
+.liuCheng{
+    width: 1200px;height: 200px;
+    /*background: #ffa500;*/
+    margin: 0 auto;
+display: flex;justify-content: space-between;
 }
+.liuCheng-one{
+    width: 190px;height: 80px;background: #eeeeee;
+    border-radius: 40px;
+}
+.liuCheng-one p{
+    color: #0459f3;text-align: center;line-height: 40px;
+    font-size: 18px;
+}
+.liuCheng:hover p{
+    color: white;
+}
+.liuCheng:hover .liuCheng-one{
+    background-color: #3375f5;
+}
+
+
+
+
+
+
+
 
 .five{
     width: 100%;height: 30px;
@@ -197,15 +217,31 @@ p, h1, div, img, body {
     width: 500px;margin: 0 auto;height: 100%;margin: 0 auto;
     /*background: #ffa500;*/
 }
-p{text-align: center;color: #959595;font-size: 16px;
-}
+/*p{text-align: center;color: #959595;font-size: 16px;*/
+/*}*/
 
 .six{
     position: fixed;
     bottom: 50px;right: 100px;cursor: pointer;display: none;
 }
 
+#goBack {
+    width: 78px;
+    height: 78px;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+}
 
+#footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 150px;
+    text-align: center;
+    line-height: 80px;
+    color: #ebebeb;
+    background: #042a73;
+}
 
 
 

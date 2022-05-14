@@ -5,97 +5,171 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>金融服务</title>
-    <link rel="shortcut icon" href="">
-    <link rel="stylesheet" href="../public/css/Financing.css">
+    <title>基金</title>
+    <link rel="icon" href="../public/img/logo.ico">
+    <link rel="stylesheet" href="../public/css/public.css">
+    <script src="../public/js/Jquery.js"></script>
+    <link rel="stylesheet" href="../public/css/Fund.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
 </head>
 <body>
-<div id="nav"></div>
-<div id="swiper"></div>
-<div id="FinancingTop">
-    <h1>金融服务</h1>
-    <p>Financial services</p>
-    <br>
-    <br>
+<header>
+    <div class="header-bar">
+        <div class="bar-menu">
+            <svg t="1652321780973" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                 xmlns="http://www.w3.org/2000/svg" p-id="4146" width="15" height="15">
+                <path d="M927.616 465.6C923.328 236.704 745.888 51.808 528 51.808h-32c-217.888 0-395.328 184.896-399.616 413.76C58.112 487.744 32 528.672 32 576v64c0 70.592 57.408 128 128 128s128-57.408 128-128v-64a128.064 128.064 0 0 0-126.784-127.872C173.728 262.688 318.912 115.808 496 115.808h32c177.12 0 322.272 146.88 334.784 332.32A128.064 128.064 0 0 0 736 576v64c0 57.792 38.72 106.176 91.392 122.016a337.504 337.504 0 0 1-191.936 124.48A79.712 79.712 0 0 0 560 832a80 80 0 1 0 0 160 79.68 79.68 0 0 0 67.872-38.112 402.432 402.432 0 0 0 278.24-193.6C955.968 742.816 992 695.776 992 640v-64c0-47.328-26.112-88.256-64.384-110.4zM224 576v64c0 35.296-28.704 64-64 64s-64-28.704-64-64v-64c0-35.296 28.704-64 64-64s64 28.704 64 64z m704 64c0 34.304-27.2 62.176-61.12 63.712l-2.496-1.184c-0.224 0.512-0.576 0.928-0.8 1.408A64 64 0 0 1 800 640v-64c0-35.296 28.704-64 64-64s64 28.704 64 64v64z"
+                      p-id="4147" fill="#ffffff"></path>
+            </svg>
+            <a href="">客服</a>
+            <svg t="1652324059123" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                 xmlns="http://www.w3.org/2000/svg" p-id="9072" width="15" height="15">
+                <path d="M474.755929 657.201671a328.692261 328.692261 0 0 0-328.911681 328.545981 36.570122 36.570122 0 0 1-73.067105 0 401.686225 401.686225 0 0 1 401.978786-401.539945v72.993964a328.619121 328.619121 0 1 1 0-657.165101 328.692261 328.692261 0 0 1 328.911682 328.545981 328.692261 328.692261 0 0 1-328.911682 328.61912 36.570122 36.570122 0 1 1 0-73.067104 255.698296 255.698296 0 0 0 255.771437-255.552016A255.698296 255.698296 0 0 0 474.755929 73.030535a255.698296 255.698296 0 0 0-255.771436 255.552016 255.113175 255.113175 0 0 0 168.441984 240.338845c27.793293 10.020214 57.122531 15.213171 87.329452 15.213171v73.067104zM950.460083 987.429878a36.570122 36.570122 0 0 1-73.140245 0c0-37.228385-5.412378-62.68119-18.285061-90.693904-6.582622-14.554909-12.726403-25.599086-31.962288-58.365916a367.16403 367.16403 0 0 0-143.50116-138.235063 36.496982 36.496982 0 1 1 34.522195-64.363415 440.231135 440.231135 0 0 1 172.098997 165.735795c20.479269 35.107318 27.281311 47.248598 35.399878 64.875397 17.187958 37.594086 24.867683 73.432806 24.867684 121.047106z"
+                      p-id="9073" fill="#ffffff"></path>
+            </svg>
+            <a href="">注册/登录</a>
+        </div>
+    </div>
+    <div class="header-nav">
+        <div class="nav-logo">
+            <img src="../public/img/logo.png" alt="">
+        </div>
+        <ul class="nav-list">
+            <li><a class="nav-a" href="index.html" id="first">首页</a></li>
+            <li><a class="nav-a" href="crossBorderECommerce.html" id="second">跨境电商</a></li>
+            <li><a class="nav-a" href="Cross-border-Logistics.html" id="third">供应链服务</a></li>
+            <li><a class="nav-a" href="Comprehensive%20service.html" id="fourth">基础服务</a></li>
+            <li><a class="nav-a" href="Financing.html" id="fifth">金融服务</a></li>
+            <li><a class="nav-a" href="overseasInvestment.html" id="sixth">海外投资</a></li>
+            <li><a class="nav-a" href="Declare.html" id="seventh">政策申报</a></li>
+            <li><a class="nav-a" href="About.html" id="eighth">关于我们</a></li>
+        </ul>
+    </div>
+    <div class="drop_downs">
+        <ul class="drop_down2">
+            <li><a class="down-a" href="crossBorderECommerce.html">全球开店</a></li>
+            <li><a class="down-a" href="brandsGoOverseas.html">品牌出海</a></li>
+            <li><a class="down-a" href="replaceOperation.html">代运营</a></li>
+        </ul>
+        <ul class="drop_down3">
+            <li><a class="down-a" href="Cross-border-Logistics.html">跨境物流</a></li>
+            <li><a class="down-a" href="Overseas-warehouse.html">海外仓</a></li>
+            <li><a class="down-a" href="Supplier.html">找供应商</a></li>
+            <li><a class="down-a" href="Supplier-settlement.html">供应商入驻</a></li>
+            <li><a class="down-a" href="Agent.html">代采代发</a></li>
+        </ul>
+        <ul class="drop_down4">
+            <li><a class="down-a" href="Comprehensive%20service.html">报关</a></li>
+            <li><a class="down-a" href="Rebates.html">外汇</a></li>
+            <li><a class="down-a" href="TaxRebates.html">退税</a></li>
+            <li><a class="down-a" href="Policy.html">税筹规划</a></li>
+
+        </ul>
+        <ul class="drop_down5">
+            <li><a class="down-a" href="Financing.html">融资</a></li>
+            <!--                <li><a class="down-a" href="">结汇</a></li>-->
+            <li><a class="down-a" href="Credit.html">信贷</a></li>
+            <li><a class="down-a" href="Corporation.html">信保</a></li>
+            <li><a class="down-a" href="Fund.html">基金</a></li>
+        </ul>
+        <ul class="drop_down6">
+            <li><a class="down-a" href="overseasInvestment.html">跨境投资备案</a></li>
+            <li><a class="down-a" href="overseasInvestment-companyRegistration.html">投资路径优化</a></li>
+            <li><a class="down-a" href="overseasInvestment-invest.html">离岸公司注册</a></li>
+            <li><a class="down-a" href="overseasInvestment-listed.html">国际商标注册</a></li>
+            <li><a class="down-a" href="overseasInvestment-trademark.html">海外上市辅导</a></li>
+        </ul>
+        <ul class="drop_down8">
+            <li><a class="down-a" href="About.html">公司简介</a></li>
+            <li><a class="down-a" href="Cooperate.html">商务合作</a></li>
+        </ul>
+    </div>
+</header>
+<div id="Swiper">
+
+    <div class="first">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img
+                        src="https://13994135.s61i.faiusr.com/2/AD0Il5HWBhACGAAg06PdzQUolLrErAQwgA842AQ.jpg"
+                        alt="" width="100%" height="500">
+                </div>
+                <div class="swiper-slide"><img
+                        src="https://13994135.s61i.faiusr.com/2/AD0Il5HWBhACGAAg0KbdzQUonoX48wcwgA842AQ.jpg"
+                        alt="" width="100%" height="500"></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+    </div>
+
+</div>
+
+<div id="AboutUs">
+    跨境电商融资，出海无难度 <br>
+</div>
+<div id="AboutUsWords">
     <span>
-XXX为中央直属国有独资金融机构。2007年5月30日，国家工商总局正式换发了公司的营业执照。2014年4月，公司取得私募基金管理人资格。根据国家工商总局核准，公司的经营范围是投资业务和资产管理。股东是财政部，性质是国有独资，注册资本金为45亿元。公司的经营宗旨是利用各种资源和手段，为中小企业发展的各个阶段提供全方位的服务，终实现公司与目标企业共同成长。作为具有特殊历史背景的国有资产经营管理公司，在妥善处理历史遗留问题的同时，公司以实践国家产业政策为己任，通过大力开展各类投融资业务，努力实现国家、社会和目标企业多赢。自2007年更名至今，公司通过各项业务的开展，共实现盈利近127亿元，实现利润超过89亿元。公司与各地政府积极沟通，合作设立产业创投基金，支持区域经济和高新技术企业发展。
+纯看公司潜力 · 绝不稀释股权 · 线上极速申请 · 低成本额度高
     </span>
 </div>
-<div id="FinancingBack">
-    <br>
-    <br>
-    <br>
-    <br>
-    <h1 style="font-size: 48px;color: #FFFFFF;">专项基金</h1>
-    <p style="font-size:26px;color: rgba(255, 255, 255, 0.698)">SPECIAL&nbsp;&nbsp;&nbsp;FUND</p>
-    <br>
-    <br>
-    <br>
-    <div id="FinancingBackImg">
-        <div id="BackImg1">
-            <div id="BackImgText1"></div>
+
+<div id="Founds">
+    <div id="FoundsWords">
+        <p>专项基金</p>
+        <span>SPECIAL FUND</span>
+    </div>
+    <div id="FoundsBox">
+        <div id="BoxA">
+            <img src="https://13994135.s6   1i.faiusr.com/2/AD0Il5HWBhACGAAg4JTfyQUo6aDSgAQwnQI4yAE.jpg.webp" alt="">
+            <span style="font-size: 28px; color: #ebebeb">信用证融资</span>
+            <br>
+            <br>
+            <p style="font-size: 16px; color: #ebebeb;line-height: 30px">代表买方的银行在签署的信用证中作出承诺，当卖方按照信用证中开列的条件出示票据后，银行将承兑卖方开出的汇票，代表进口方向卖方付款。信用证是进口方银行同出口方(通过出口方银行)之间的金融合约。</p>
         </div>
-        <div id="BackImg2">
-            <div id="BackImgText2"></div>
+        <div id="BoxB">
+            <!--            <img src="https://13994135.s61i.faiusr.com/2/AD0Il5HWBhACGAAg4JTfyQUo6aDSgAQwnQI4yAE.jpg.webp" alt="">-->
+            <span style="font-size: 28px; color: #ebebeb">基金融资</span>
+            <br>
+            <br>
+            <p style="font-size: 16px; color: #ebebeb;line-height: 30px">对资质优秀的融资主体，选择以私募契约型基金、集合或单一信托或定向融资工具的形式，找机构或零售客户募集资金。</p>
         </div>
-        <div id="BackImg3">
-            <div id="BackImgText3"></div>
+        <div id="BoxC">
+            <!--            <img src="https://13994135.s61i.faiusr.com/2/AD0Il5HWBhACGAAg4JTfyQUo6aDSgAQwnQI4yAE.jpg.webp" alt="">-->
+            <span style="font-size: 28px; color: #ebebeb">出口退税融资金</span>
+            <br>
+            <br>
+            <p style="font-size: 16px; color: #ebebeb; line-height: 30px">货物出口后，平台收齐办理出口退税所需单据后，在还没收到国税局下拨的退税款的情况下，自行向委托方预支全部出口退税款，以此解决委托方因申请出口退税周期过长而导致的资金周转困难的问题。</p>
         </div>
-        <div id="BackImg4">
-            <div id="BackImgText4"></div>
-        </div>
-        <div id="BackImg5">
-            <div id="BackImgText5"></div>
-        </div>
-        <div id="BackImg6">
-            <div id="BackImgText6"></div>
-        </div>
-        <div id="BackImg7">
-            <div id="BackImgText7"></div>
-        </div>
-        <div id="BackImg8">
-            <div id="BackImgText8"></div>
+        <div id="BoxD">
+            <!--            <img src="https://13994135.s61i.faiusr.com/2/AD0Il5HWBhACGAAg4JTfyQUo6aDSgAQwnQI4yAE.jpg.webp" alt="">-->
+            <span style="font-size: 28px ; color: #ebebeb">营收共享融资</span>
+            <br>
+            <br>
+            <p style="font-size: 16px; color: #ebebeb ;line-height: 30px">营收共享型融资是一种替代性融资方法，是根据未来收益计算而获得资金，在提出营收共享型融资申请后，融资方将对你的企业进行风险评估。如果你有资格获得融资，资金将在最快48小时内汇出。</p>
         </div>
     </div>
-</div>
-<br>
-<br>
-<div id="About">
-    <br>
-    <br>
-    <h1>COOPERATIVE PARTNER</h1>
-    <br>
-    <br>
-
-    <h2>合作伙伴</h2>
-    <br>
-    <br>
-    <br>
-    <div id="AboutMiddle">
 
 
-        <div id="AboutImg1">
-
-        </div>
-        <div id="AboutImg2">
-
-        </div>
-        <div id="AboutImg3">
-
-        </div>
-        <div id="AboutImg4">
-
-        </div>
-    </div>
 </div>
 <div id="footer">
     <p>外贸综合服务</p>
 </div>
 <div id="goBack">
-    <img src="../public/img/返回顶部.png" alt="" style="height: 78px;width: 78px">
+    <img src="../public/img/返回顶部.png" alt="111" style="height: 78px;width: 78px">
 </div>
 </body>
 </html>
+<script>//轮播图
+const mySwiper = new Swiper('.swiper-container', {
+    autoplay: true,//可选选项，自动滑动
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+})</script>
 <script>
     var topBtn = document.getElementById('goBack');
     // 获取视窗高度
@@ -124,4 +198,134 @@ XXX为中央直属国有独资金融机构。2007年5月30日，国家工商总�
             }
         }, 20);
     }
+    $(function () {
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 0) {
+                $("header").css('background', 'rgba(255,255,255,1)');
+                $(".nav-a").css('color', 'rgb(0,0,0)')
+                $(".nav-logo").css('color', 'rgb(0,0,0)')
+                $(".bar-menu>a").css('color', 'rgb(0,0,0)')
+                $("svg>path").css('fill', 'rgb(0,0,0)')
+            } else {
+                $("header").css('background', 'rgba(255,255,255,0)');
+                $(".nav-a").css('color', 'rgba(255,255,255,1)')
+                $(".nav-logo").css('color', 'rgba(255,255,255,1)')
+                $(".bar-menu>a").css('color', 'rgba(255,255,255,1)')
+                $("svg>path").css('fill', 'rgba(255,255,255,1)')
+            }
+        })
+        $('header').hover(
+            () => {
+                if ($(document).scrollTop() == 0) {
+                    $("header").css('background', 'rgba(255,255,255,1)')
+                    $(".bar-menu>a").css('color', 'rgb(0,0,0)')
+                    $("svg>path").css('fill', 'rgb(0,0,0)')
+                    $(".nav-logo").css('color', 'rgb(0,0,0)')
+                    $(".nav-list > li > a").css('color', 'rgb(0,0,0)')
+                }
+            },
+            () => {
+                if ($(document).scrollTop() == 0) {
+                    $("header").css('background', 'rgba(255,255,255,.1)')
+                    $(".bar-menu>a").css('color','#fff')
+                    $("svg>path").css('fill', '#fff')
+                    $(".nav-logo").css('color', '#fff')
+                    $(".nav-list > li > a").css('color', '#fff')
+                }
+            })
+    })
+
+
+    //下拉框
+    const second = document.getElementById('second')
+    const third = document.getElementById('third')
+    const fourth = document.getElementById('fourth')
+    const fifth = document.getElementById('fifth')
+    const sixth = document.getElementById('sixth')
+    const eighth = document.getElementById('eighth')
+
+    const down2 = document.getElementsByClassName('drop_down2')
+    const down3 = document.getElementsByClassName('drop_down3')
+    const down4 = document.getElementsByClassName('drop_down4')
+    const down5 = document.getElementsByClassName('drop_down5')
+    const down6 = document.getElementsByClassName('drop_down6')
+    const down8 = document.getElementsByClassName('drop_down8')
+    second.onmouseenter = function () {
+        down2[0].style.display = 'block'
+        down2[0].onmouseenter = function () {
+            down2[0].style.display = 'block'
+        }
+        down2[0].onmouseleave = function () {
+            down2[0].style.display = 'none'
+        }
+        second.onmouseleave = function () {
+            down2[0].style.display = 'none'
+        }
+    }
+
+    third.onmouseenter = function () {
+        down3[0].style.display = 'block'
+        down3[0].onmouseenter = function () {
+            down3[0].style.display = 'block'
+        }
+        down3[0].onmouseleave = function () {
+            down3[0].style.display = 'none'
+        }
+        third.onmouseleave = function () {
+            down3[0].style.display = 'none'
+        }
+    }
+
+    fourth.onmouseenter = function () {
+        down4[0].style.display = 'block'
+        down4[0].onmouseenter = function () {
+            down4[0].style.display = 'block'
+        }
+        down4[0].onmouseleave = function () {
+            down4[0].style.display = 'none'
+        }
+        fourth.onmouseleave = function () {
+            down4[0].style.display = 'none'
+        }
+    }
+
+    fifth.onmouseenter = function () {
+        down5[0].style.display = 'block'
+        down5[0].onmouseenter = function () {
+            down5[0].style.display = 'block'
+        }
+        down5[0].onmouseleave = function () {
+            down5[0].style.display = 'none'
+        }
+        fifth.onmouseleave = function () {
+            down5[0].style.display = 'none'
+        }
+    }
+
+    sixth.onmouseenter = function () {
+        down6[0].style.display = 'block'
+        down6[0].onmouseenter = function () {
+            down6[0].style.display = 'block'
+        }
+        down6[0].onmouseleave = function () {
+            down6[0].style.display = 'none'
+        }
+        sixth.onmouseleave = function () {
+            down6[0].style.display = 'none'
+        }
+    }
+
+    eighth.onmouseenter = function () {
+        down8[0].style.display = 'block'
+        down8[0].onmouseenter = function () {
+            down8[0].style.display = 'block'
+        }
+        down8[0].onmouseleave = function () {
+            down8[0].style.display = 'none'
+        }
+        eighth.onmouseleave = function () {
+            down8[0].style.display = 'none'
+        }
+    }
+
 </script>

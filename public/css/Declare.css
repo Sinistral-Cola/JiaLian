@@ -20,14 +20,14 @@
     width: 1200px;
     height: 630px;
     margin: 0 auto;
-    background: lightblue;
+    /*background: lightblue;*/
 }
 
 #DeclareTopLeft {
     width: 390px;
     height: 100%;
     float: left;
-    background: lightsalmon;
+    /*background: lightsalmon;*/
 }
 
 #DeclareTopLeftImg {
@@ -57,13 +57,19 @@
     top: 65px;
     left: 5px;
     justify-content: space-around;
-    background: pink;
+    /*background: pink;*/
 }
 
 #DeclareTopRight div {
     width: 245px;
     height: 500px;
-    background: lightgreen;
+    /*background: lightgreen;*/
+}
+
+#DeclareTopRight div img{
+    width: 245px;
+    height: 500px;
+    /*background: lightgreen;*/
 }
 
 #DeclareTopMiddleContant #MiddleImg1, #MiddleImg2, #MiddleImg3, #MiddleImg4, #MiddleImg5 {
@@ -113,10 +119,14 @@
     width: 1200px;
     height: 100%;
     margin: 0 auto;
-    background: pink;
+    /*background: pink;*/
     position: relative;
 }
 
+#DeclareTopMiddleContant img{
+    width: 300px;
+    height: 150px;
+}
 #DeclareTopMiddleImg {
     width: 480px;
     height: 358px;
@@ -124,7 +134,7 @@
     text-align: center;
     position: relative;
     top: 180px;
-    background: lightsalmon;
+    /*background: lightsalmon;*/
     background: url("../../public/img/round.png.webp");
 }
 
@@ -146,14 +156,14 @@
     margin: 0 auto;
     position: relative;
     top: 80px;
-    background: lightblue;
+    /*background: lightblue;*/
 }
 
 #DeclareUnderRight {
     width: 390px;
     height: 100%;
     float: right;
-    background: lightsalmon;
+    /*background: lightsalmon;*/
 }
 
 #DeclareUnderRightImg {
@@ -188,13 +198,17 @@
     width: 380px;
     height: 220px;
     text-align: center;
-    background: lightgreen;
+    /*background: lightgreen;*/
 
+}
+#DeclareUnderLeft div img{
+    width: 380px;
+    height: 220px;
 }
 #footer {
     width: 100%;
     height: 80px;
-    margin-top: 150px;
+    margin-top: 550px;
     text-align: center;
     line-height: 80px;
     color: #ebebeb;

@@ -1,143 +1,75 @@
-div, ul, li, html, body, h1, h3 {
+div, ul, li, html, body {
   margin: 0;
   padding: 0;
 }
 
-a {
-  text-decoration: none;
-  color: #000000;
+/*@media screen and (min-width: 1200px) {*/
+/*  ul{width: 1200px;margin: 0 auto;}*/
+/*}*/
+/*@media screen and (min-width:300px) and (max-width: 1200px)  {*/
+/*  ul{width: 100%}*/
+/*}*/
+/*@media screen and (max-width: 300px) {*/
+/*  ul{display: none}*/
+/*}*/
+html, body {
+  background: rgb(241,243,247);
 }
-
-.swiper {
+.topImg {
   width: 100%;
-  height: 400px;
-  overflow: hidden;
+  height: 300px;
+}
+h1{
+  color: rgb(74,130,229);
+
 }
 
 .content {
   margin: 0 auto;
   width: 1200px;
-  background: #ebebeb;
 }
 
 .content > .contentTop {
-  margin: 0 auto;
+  color: #222;
+  margin: 30px auto 0;
   width: 1200px;
-  height: 450px;
   list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 
 .contentTop > li {
   float: left;
   display: inline-block;
-  width: 300px;
+  width: 290px;
   height: 150px;
+  margin-top: 40px;
+  margin-right: 10px;
   background: #ffffff;
   text-align: center;
 }
 
 .contentTop > li:hover {
-  background: rgb(3, 157, 194);
+  color: #007aff;
   transform: scale(1.08);
   transition: all 0.8s;
 }
-
-.content > .contentMiddle {
-  margin: 0 auto;
-  width: 1200px;
-  height: 500px;
-  list-style: none;
-  background: #fff;
+#goBack {
+  width: 78px;
+  height: 78px;
+  position: fixed;
+  bottom: 100px;
+  right: 0;
 }
 
-
-.contentMiddle > ul > li {
-  float: left;
-  display: inline-block;
-  width: 600px;
-  height: 150px;
-  text-align: center;
-}
-.contentMiddle>ul h3,.contentMiddle>ul p{
-  text-align: left;
-  margin-left: 50px;
-}
-.contentMiddle li{
-  margin-top: 30px;
-}
-.contentBottom {
-  margin: 0 auto;
-  width: 1200px;
-  height: 400px;
-  background: lightskyblue;
-  display: flex;
-  justify-content: space-around;
-}
-
-.contentBottom > li {
-  width: 300px;
-  list-style: none;
-  margin-top: 65px;
-}
-
-.contentBottom > li > div {
+#footer {
   width: 100%;
-  height: 200px;
-  background: gold;
-  background: url("../img/1.jpg");
-}
-
-.contentBottom > li > div:hover {
-  transform: scale(1);
-  transition: all linear 1s;
-  opacity: .8;
-}
-
-.list {
-  overflow: hidden;
-  list-style: none;
-  margin: 0 auto;
-  width: 1200px;
-  height: 400px;
-  background: lightsalmon;
-}
-
-.list > div {
-
-  float: right;
-  display: inline-block;
-  width: 600px;
-  height: 400px;
-  background: lightgreen;
-}
-
-.list > div > div {
-  margin: 50px 100px;
-  width: 400px;
-  height: 300px;
-  display: inline-block;
-  background: lightskyblue;
-
-}
-
-.list li {
-  overflow: hidden;
-  margin: 30px 100px;
-  border-radius: 20px;
-  width: 400px;
-  height: 100px;
-  background: #039dc2;
-}
-
-.list li > h3 {
-  margin-top: 15px;
-}
-
-.list li > h3, .list li p {
-  margin-left: 20px;
-}
-
-.list a:hover {
-  color:  #ffffff;
+  height: 80px;
+position: absolute;
+  bottom: 0;
+  text-align: center;
+  line-height: 80px;
+  color: #ebebeb;
+  background: #042a73;
 }

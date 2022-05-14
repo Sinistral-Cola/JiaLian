@@ -20,7 +20,7 @@
     width: 1200px;
     height: 830px;
     margin: 0 auto;
-    background: lightpink;
+    /*background: lightpink;*/
 }
 
 #CorporationTopText {
@@ -37,16 +37,19 @@
     margin-top: 80px;
     display: flex;
     justify-content: space-around;
-    background: lightgreen;
+    /*background: lightgreen;*/
 }
 
 #CorporationTopUnder div {
     width: 300px;
     height: 500px;
     text-align: center;
-    background: brown;
+    /*background: brown;*/
 }
-
+#CorporationTopUnder div  div img{
+    width: 300px;
+    height: 300px;
+}
 #CorporationTopUnder p {
     font-size: 34px;
 }
@@ -85,7 +88,11 @@
     width: 380px;
     height: 200px;
     margin-top: 25px;
-    background: pink;
+    /*background: pink;*/
+}
+#CorporationUnderImg div img {
+    width: 380px;
+    height: 200px;
 }
 #footer {
     width: 100%;

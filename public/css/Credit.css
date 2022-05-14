@@ -23,11 +23,11 @@
 }
 
 #CreditTopText {
-    width: 500px;
+    width: 600px;
     height: 150px;
     margin: 0 auto;
     text-align: center;
-    background: lightpink;
+    /*background: lightpink;*/
 }
 
 #CreditTopButton {
@@ -36,7 +36,7 @@
     margin: 30px auto;
     display: flex;
     text-align: center;
-    background: lightblue;
+    /*background: lightblue;*/
 }
 
 #CreditTopButton div {
@@ -45,33 +45,30 @@
     margin-top: 25px;
     text-align: center;
     line-height: 50px;
-    background: lightgreen;
+    /*background: lightgreen;*/
 }
 
-#Button1:hover {
-
-}
 
 #CreditTopContant {
     width: 1200px;
     height: 300px;
     margin: 30px auto;
     display: flex;
-    background: lightsalmon;
+    /*background: lightsalmon;*/
 }
 
 #CreditTopContant div div {
     width: 500px;
     height: 300px;
     float: left;
-    background: lightpink;
+    /*background: lightpink;*/
 }
 
 #CreditTopContant div div ~ div {
     width: 600px;
     height: 300px;
     float: right;
-    background: lightgreen;
+    /*background: lightgreen;*/
 }
 
 #Contant1 {
@@ -84,14 +81,20 @@
 #Contant2 {
     width: 1200px;
     height: 300px;
-    background: pink;
+    background: white;
     display: none;
 }
 
 #Contant3 {
     width: 1200px;
     height: 300px;
-    background: brown;
+    background: white;
+    display: none;
+}
+#Contant4 {
+    width: 1200px;
+    height: 300px;
+    background: white;
     display: none;
 }
 #CreditUnder {
@@ -104,20 +107,25 @@
     height: 150px;
     margin: 50px auto;
     text-align: center;
-    background: lightpink;
+    /*background: lightpink;*/
 }
 #CreditUnderContant{
     width: 1200px;
     height: 600px;
     margin:  100px auto;
     position: relative;
-    background: lightblue;
+    /*background: lightblue;*/
 }
 #CreditUnderContantLeft{
     width: 700px;
     height: 550px;
     /*margin-top: 80px;*/
     background: #888888;
+}
+#CreditUnderContantLeft img{
+    width: 700px;
+    height: 550px;
+
 }
 #CreditUnderContantRight{
     width: 600px;
@@ -128,6 +136,10 @@
     right: 0;
     z-index: 2;
     background: white;
+}
+#CreditUnderContantRight:hover{
+transform: scale(1.03);
+    transition: all 0.5s;
 }
 #footer {
     width: 100%;
