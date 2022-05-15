@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
     width: 100%;
     height: 380px;
-    background-image: url("https://21092388.s61i.faiusr.com/2/AD0IpLCHChACGAAgtKjB7wUo8MHn1AQwgA84oAY.jpg");
+    background-image: url("https://14559978.s61i.faiusr.com/2/AD0I6tX4BhACGAAgg4eJ2gUo3bTf8QUwgA84xQM.jpg");
     cursor: default;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -235,20 +235,17 @@ body {
     color: #2B2B2B;
     text-align: center;
 }
-#mapPhoto{
-    margin: 0 auto;
-    width: 1200px;
-    height: 400px;
-    /*background: #042a73;*/
-    background-image: url("../img/QQ.jpg");
-    cursor: default;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    display: block;
-    outline: none;
-    background-size: cover;
+
+#mapPhoto #dituContent{
+    margin:0 0 0 250px ;
 }
+#lianxi{
+  position: absolute;
+    top: 1900px;
+   right : 250px;
+
+}
+
 #goBack {
     width: 78px;
     height: 78px;

@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>供应商入驻</title>
+    <link rel="stylesheet" href="../public/css/bootstraps.css">
+    <link rel="stylesheet" href="../public/css/Animate.css">
+    <!--animate动画库-->
+    <link rel="stylesheet" href="../public/css/Supplier-settlement.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+<!--    Swiper轮播图-->
+    <link rel="stylesheet" href="../public/css/public.css">
+    <link rel="icon" href="../public/img/logo.ico">
+    <script src="../public/js/Jquery.js"></script>
+</head>
+<body>
+<header>
+    <div class="header-bar">
+        <div class="bar-menu">
+            <svg t="1652321780973" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                 xmlns="http://www.w3.org/2000/svg" p-id="4146" width="15" height="15">
+                <path d="M927.616 465.6C923.328 236.704 745.888 51.808 528 51.808h-32c-217.888 0-395.328 184.896-399.616 413.76C58.112 487.744 32 528.672 32 576v64c0 70.592 57.408 128 128 128s128-57.408 128-128v-64a128.064 128.064 0 0 0-126.784-127.872C173.728 262.688 318.912 115.808 496 115.808h32c177.12 0 322.272 146.88 334.784 332.32A128.064 128.064 0 0 0 736 576v64c0 57.792 38.72 106.176 91.392 122.016a337.504 337.504 0 0 1-191.936 124.48A79.712 79.712 0 0 0 560 832a80 80 0 1 0 0 160 79.68 79.68 0 0 0 67.872-38.112 402.432 402.432 0 0 0 278.24-193.6C955.968 742.816 992 695.776 992 640v-64c0-47.328-26.112-88.256-64.384-110.4zM224 576v64c0 35.296-28.704 64-64 64s-64-28.704-64-64v-64c0-35.296 28.704-64 64-64s64 28.704 64 64z m704 64c0 34.304-27.2 62.176-61.12 63.712l-2.496-1.184c-0.224 0.512-0.576 0.928-0.8 1.408A64 64 0 0 1 800 640v-64c0-35.296 28.704-64 64-64s64 28.704 64 64v64z"
+                      p-id="4147" fill="#ffffff"></path>
+            </svg>
+            <a href="">客服</a>
+            <svg t="1652324059123" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                 xmlns="http://www.w3.org/2000/svg" p-id="9072" width="15" height="15">
+                <path d="M474.755929 657.201671a328.692261 328.692261 0 0 0-328.911681 328.545981 36.570122 36.570122 0 0 1-73.067105 0 401.686225 401.686225 0 0 1 401.978786-401.539945v72.993964a328.619121 328.619121 0 1 1 0-657.165101 328.692261 328.692261 0 0 1 328.911682 328.545981 328.692261 328.692261 0 0 1-328.911682 328.61912 36.570122 36.570122 0 1 1 0-73.067104 255.698296 255.698296 0 0 0 255.771437-255.552016A255.698296 255.698296 0 0 0 474.755929 73.030535a255.698296 255.698296 0 0 0-255.771436 255.552016 255.113175 255.113175 0 0 0 168.441984 240.338845c27.793293 10.020214 57.122531 15.213171 87.329452 15.213171v73.067104zM950.460083 987.429878a36.570122 36.570122 0 0 1-73.140245 0c0-37.228385-5.412378-62.68119-18.285061-90.693904-6.582622-14.554909-12.726403-25.599086-31.962288-58.365916a367.16403 367.16403 0 0 0-143.50116-138.235063 36.496982 36.496982 0 1 1 34.522195-64.363415 440.231135 440.231135 0 0 1 172.098997 165.735795c20.479269 35.107318 27.281311 47.248598 35.399878 64.875397 17.187958 37.594086 24.867683 73.432806 24.867684 121.047106z"
+                      p-id="9073" fill="#ffffff"></path>
+            </svg>
+            <a href="">注册/登录</a>
+        </div>
+    </div>
+    <div class="header-nav">
+        <div class="nav-logo">
+            <img src="../public/img/logo.png" alt="">
+        </div>
+        <ul class="nav-list">
+            <li><a class="nav-a" href="index.html" id="first">首页</a></li>
+            <li><a class="nav-a" href="crossBorderECommerce.html" id="second">跨境电商</a></li>
+            <li><a class="nav-a" href="Cross-border-Logistics.html" id="third">供应链服务</a></li>
+            <li><a class="nav-a" href="Comprehensive%20service.html" id="fourth">基础服务</a></li>
+            <li><a class="nav-a" href="Financing.html" id="fifth">金融服务</a></li>
+            <li><a class="nav-a" href="overseasInvestment.html" id="sixth">海外投资</a></li>
+            <li><a class="nav-a" href="Declare.html" id="seventh">政策申报</a></li>
+            <li><a class="nav-a" href="About.html" id="eighth">关于我们</a></li>
+        </ul>
+    </div>
+    <div class="drop_downs">
+        <ul class="drop_down2">
+            <li><a class="down-a" href="crossBorderECommerce.html">全球开店</a></li>
+            <li><a class="down-a" href="brandsGoOverseas.html">品牌出海</a></li>
+            <li><a class="down-a" href="replaceOperation.html">代运营</a></li>
+        </ul>
+        <ul class="drop_down3">
+            <li><a class="down-a" href="Cross-border-Logistics.html">跨境物流</a></li>
+            <li><a class="down-a" href="Overseas-warehouse.html">海外仓</a></li>
+            <li><a class="down-a" href="Supplier.html">找供应商</a></li>
+            <li><a class="down-a" href="Supplier-settlement.html">供应商入驻</a></li>
+            <li><a class="down-a" href="Agent.html">代采代发</a></li>
+        </ul>
+        <ul class="drop_down4">
+            <li><a class="down-a" href="Comprehensive%20service.html">报关</a></li>
+            <li><a class="down-a" href="Rebates.html">外汇</a></li>
+            <li><a class="down-a" href="TaxRebates.html">退税</a></li>
+            <li><a class="down-a" href="Policy.html">税筹规划</a></li>
+
+        </ul>
+        <ul class="drop_down5">
+            <li><a class="down-a" href="Financing.html">融资</a></li>
+            <!--                <li><a class="down-a" href="">结汇</a></li>-->
+            <li><a class="down-a" href="Credit.html">信贷</a></li>
+            <li><a class="down-a" href="Corporation.html">信保</a></li>
+            <li><a class="down-a" href="Fund.html">基金</a></li>
+        </ul>
+        <ul class="drop_down6">
+            <li><a class="down-a" href="overseasInvestment.html">跨境投资备案</a></li>
+            <li><a class="down-a" href="overseasInvestment-companyRegistration.html">投资路径优化</a></li>
+            <li><a class="down-a" href="overseasInvestment-invest.html">离岸公司注册</a></li>
+            <li><a class="down-a" href="overseasInvestment-listed.html">国际商标注册</a></li>
+            <li><a class="down-a" href="overseasInvestment-trademark.html">海外上市辅导</a></li>
+        </ul>
+        <ul class="drop_down8">
+            <li><a class="down-a" href="About.html">公司简介</a></li>
+            <li><a class="down-a" href="Cooperate.html">商务合作</a></li>
+        </ul>
+    </div>
+</header>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">slider1</div>
+        <div class="swiper-slide">slider2</div>
+        <div class="swiper-slide">slider3</div>
+    </div>
+</div>
+
+<div class="second">
+    <div class="second-one">
+        <div class="animated fadeInLeftBig left">供应链服务</div>
+        <div class="right animated fadeInRightBig">供应商入驻</div>
+
+        <div class="center animated fadeInRightBig">
+
+            <a href="/index.html" target="_self">
+                <svg t="1652278277456" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                     xmlns="http://www.w3.org/2000/svg"
+                     p-id="3503" width="30" height="30">
+                    <path d="M422.63 891.821V623.712h178.74v268.109h223.424V534.342h134.054L512 132.179 65.152 534.342h134.054V891.82H422.63z"
+                          fill="#3366CC" p-id="3504"></path>
+                </svg>
+                <!--        图标-->
+            </a>
+        </div>
+    </div>
+</div>
+<!--物流服务  a标签连接首页-->
+<div class="first">
+<p class=" animated fadeInLeftBig">入驻信息填写</p>
+    <hr class=" animated fadeInLeftBig">
+    </div>
+
+
+<!--<form action="">-->
+<!--    <label>-->
+<!--        <input type="checkbox">法人-->
+<!--    </label>-->
+<!--</form>-->
+
+
+<div class="third">
+    <div class="third-first">
+        <p  class="third-first-one"></p>
+        <p  class="third-first-two">请准确填写信息，方便第一时间与您取得联系</p>
+    </div>
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label" style="color: #ef6059">*姓名</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="请输入姓名">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label" style="color: #ef6059">*手机</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="请输入手机">
+            </div>
+        </div>
+        <div class="form-group third-first-three">
+            <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                    <label>
+                        <input type="text"  placeholder="获取验证码" class="form-control">
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default" style="background: #4a82e5">获取验证码</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label" style="color: #ef6059">*公司</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputGongSi4" placeholder="请输入公司名称">
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="four">
+    <p>*职位</p>
+    <form class="form-horizontal">
+
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 法人/CEO/联合创始人
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">市场负责人
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 销售负责人
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option1"> 运营负责人
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option2">品牌负责人
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option3"> 财务负责人
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio7" value="option1"> 技术负责人
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio8" value="option2">行政负责人
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio9" value="option3"> 营销员工
+        </label>
+    </form>
+</div>
+<div class="four">
+    <p>*公司类型</p>
+    <form class="form-horizontal">
+
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option1"> 工厂
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option2">工贸一体
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" value="option3"> 跨境销售
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option1"> 其他
+        </label>
+    </form>
+</div>
+<div class="four">
+    <p>*目前主打市场</p>
+    <form class="form-horizontal">
+
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option1"> 华北
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option2">华东
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" value="option3"> 华中
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option1"> 华南
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option2">其他
+        </label>
+    </form>
+</div>
+<div class="four">
+    <p>*主营类型</p>
+    <form class="form-horizontal">
+
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option1"> 消费电子
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option2">母婴玩具
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" value="option3"> 数码家庭
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option1"> 鞋衣箱包
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option2">服饰配件
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" value="option3">户外运动
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option1"> 健康个体
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option2">其他
+        </label>
+
+    </form>
+</div>
+<div class="four">
+    <p>*产品适应那些国家地区</p>
+    <form class="form-horizontal">
+
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option1"> 欧美
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option2">东南亚
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" value="option3"> 日韩
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option1"> 澳洲
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option2">非洲
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" value="option3">俄罗斯
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option1">中东
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option2">其他
+        </label>
+    </form>
+</div>
+<div class="four">
+    <p>*服务能力</p>
+    <form class="form-horizontal">
+
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option1">OEM
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option2">ODM
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" value="option3">DBM
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option1"> 一件代发海外
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option2">海外仓
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" value="option3"> FBA
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option1"> 支持定制
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option2">其他
+        </label>
+
+    </form>
+</div>
+<div class="four">
+    <p>*想要与嘉联合作的初步意向</p>
+    <form class="form-horizontal">
+
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option1"> 软文/文章宣传
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option2">线上直播
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" value="option3"> 线下活动
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option1"> 线下产品展会
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option2">嘉联广告投放
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" value="option3"> 整合营销
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions"  value="option1"> 不确定，由嘉联推荐
+        </label>
+
+    </form>
+</div>
+
+<div class="four">
+    <p>贵公司产品有哪些独特的优势和服务</p>
+    <input type="text" class="form-control" placeholder="请输入贵公司的优势">
+    <button class="btn btn-primary">确定</button>
+    <button class="btn btn-default">取消</button>
+</div>
+<div id="one"></div>
+
+
+
+
+
+
+
+<!--<div class="five">-->
+<!--    <div class="five-center">-->
+<!--        <p>嘉联物流有限公司</p>-->
+<!--    </div>-->
+<!--</div>-->
+<!--<div class="six">-->
+<!--    <svg t="1652337218714" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"-->
+<!--         p-id="3918" width="40" height="40">-->
+<!--        <path d="M512 68.266667c245.060267 0 443.733333 198.673067 443.733333 443.733333S757.060267 955.733333 512 955.733333 68.266667 757.060267 68.266667 512 266.939733 68.266667 512 68.266667"-->
+<!--              fill="#257AE7" p-id="3919"></path>-->
+<!--        <path d="M665.6 520.430933c-7.645867 0-15.291733-2.901333-21.111467-8.7552L512 379.221333l-132.488533 132.471467a29.832533 29.832533 0 0 1-42.222934 0 29.832533 29.832533 0 0 1 0-42.222933l153.6-153.6a29.832533 29.832533 0 0 1 42.222934 0l153.6 153.6A29.832533 29.832533 0 0 1 665.6 520.430933"-->
+<!--              fill="#FFFFFF" p-id="3920"></path>-->
+<!--        <path d="M512 717.4656a29.866667 29.866667 0 0 1-29.866667-29.866667V354.030933a29.866667 29.866667 0 0 1 59.733334 0v333.568a29.866667 29.866667 0 0 1-29.866667 29.866667"-->
+<!--              fill="#FFFFFF" p-id="3921"></path>-->
+<!--    </svg>-->
+<!--    &lt;!&ndash;  置顶图标&ndash;&gt;-->
+<!--</div>-->
+<!--&lt;!&ndash;置顶&ndash;&gt;-->
+<!--<div id="footer">-->
+<!--    <p>外贸综合服务</p>-->
+<!--</div>-->
+<div id="goBack">
+    <img src="../public/img/返回顶部.png" alt="" style="height: 78px;width: 78px">
+</div>
+
+</body>
+</html>
+<script>
+    var topBtn = document.getElementById('goBack');
+    // 获取视窗高度
+    var winHeight = document.documentElement.clientHeight;
+    window.onscroll = function () {
+        // 获取页面向上滚动距离，chrome浏览器识别document.body.scrollTop，而火狐识别document.documentElement.scrollTop，这里做了兼容处理
+        var toTop = document.documentElement.scrollTop || document.body.scrollTop;
+        // 如果滚动超过一屏，返回顶部按钮出现，反之隐藏
+        if (toTop >= winHeight - 800) {
+            topBtn.style.display = 'block';
+        } else {
+            topBtn.style.display = 'none';
+        }
+    }
+    topBtn.onclick = function () {
+        var timer = setInterval(function () {
+            var toTop = document.documentElement.scrollTop || document.body.scrollTop;
+            // 判断是否到达顶部，到达顶部停止滚动，没到达顶部继续滚动
+            if (toTop == 0) {
+                clearInterval(timer);
+            } else {
+                // 设置滚动速度
+                var speed = Math.ceil(toTop / 8);
+                // 页面向上滚动
+                document.documentElement.scrollTop = document.body.scrollTop = toTop - speed;
+            }
+        }, 20);
+    }
+    //轮播图
+    var mySwiper = new Swiper('.swiper-container', {
+        autoplay: true,//可选选项，自动滑动
+    })
+
+
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 50) {
+            $('.six').slideDown(1000)
+        } else {
+
+            $('.six').slideUp(1000)
+        }
+
+        console.log($(window).scrollTop())
+    });
+    //指定按钮出现与消失
+    $('.six').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+    });
+    //点击按钮返回顶部
+
+
+//     $(function () {
+// $(window)
+//     })
+    $(function () {
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 0) {
+                $("header").css('background', 'rgba(255,255,255,1)');
+                $(".nav-a").css('color', 'rgb(0,0,0)')
+                $(".nav-logo").css('color', 'rgb(0,0,0)')
+                $(".bar-menu>a").css('color', 'rgb(0,0,0)')
+                $("svg>path").css('fill', 'rgb(0,0,0)')
+            } else {
+                $("header").css('background', 'rgba(255,255,255,0)');
+                $(".nav-a").css('color', 'rgba(255,255,255,1)')
+                $(".nav-logo").css('color', 'rgba(255,255,255,1)')
+                $(".bar-menu>a").css('color', 'rgba(255,255,255,1)')
+                $("svg>path").css('fill', 'rgba(255,255,255,1)')
+            }
+        })
+        $('header').hover(
+            () => {
+                if ($(document).scrollTop() == 0) {
+                    $("header").css('background', 'rgba(255,255,255,1)')
+                    $(".bar-menu>a").css('color', 'rgb(0,0,0)')
+                    $("svg>path").css('fill', 'rgb(0,0,0)')
+                    $(".nav-logo").css('color', 'rgb(0,0,0)')
+                    $(".nav-list > li > a").css('color', 'rgb(0,0,0)')
+                }
+            },
+            () => {
+                if ($(document).scrollTop() == 0) {
+                    $("header").css('background', 'rgba(255,255,255,.1)')
+                    $(".bar-menu>a").css('color','#fff')
+                    $("svg>path").css('fill', '#fff')
+                    $(".nav-logo").css('color', '#fff')
+                    $(".nav-list > li > a").css('color', '#fff')
+                }
+            })
+    })
+
+
+    //下拉框
+    const second = document.getElementById('second')
+    const third = document.getElementById('third')
+    const fourth = document.getElementById('fourth')
+    const fifth = document.getElementById('fifth')
+    const sixth = document.getElementById('sixth')
+    const eighth = document.getElementById('eighth')
+
+    const down2 = document.getElementsByClassName('drop_down2')
+    const down3 = document.getElementsByClassName('drop_down3')
+    const down4 = document.getElementsByClassName('drop_down4')
+    const down5 = document.getElementsByClassName('drop_down5')
+    const down6 = document.getElementsByClassName('drop_down6')
+    const down8 = document.getElementsByClassName('drop_down8')
+    second.onmouseenter = function () {
+        down2[0].style.display = 'block'
+        down2[0].onmouseenter = function () {
+            down2[0].style.display = 'block'
+        }
+        down2[0].onmouseleave = function () {
+            down2[0].style.display = 'none'
+        }
+        second.onmouseleave = function () {
+            down2[0].style.display = 'none'
+        }
+    }
+
+    third.onmouseenter = function () {
+        down3[0].style.display = 'block'
+        down3[0].onmouseenter = function () {
+            down3[0].style.display = 'block'
+        }
+        down3[0].onmouseleave = function () {
+            down3[0].style.display = 'none'
+        }
+        third.onmouseleave = function () {
+            down3[0].style.display = 'none'
+        }
+    }
+
+    fourth.onmouseenter = function () {
+        down4[0].style.display = 'block'
+        down4[0].onmouseenter = function () {
+            down4[0].style.display = 'block'
+        }
+        down4[0].onmouseleave = function () {
+            down4[0].style.display = 'none'
+        }
+        fourth.onmouseleave = function () {
+            down4[0].style.display = 'none'
+        }
+    }
+
+    fifth.onmouseenter = function () {
+        down5[0].style.display = 'block'
+        down5[0].onmouseenter = function () {
+            down5[0].style.display = 'block'
+        }
+        down5[0].onmouseleave = function () {
+            down5[0].style.display = 'none'
+        }
+        fifth.onmouseleave = function () {
+            down5[0].style.display = 'none'
+        }
+    }
+
+    sixth.onmouseenter = function () {
+        down6[0].style.display = 'block'
+        down6[0].onmouseenter = function () {
+            down6[0].style.display = 'block'
+        }
+        down6[0].onmouseleave = function () {
+            down6[0].style.display = 'none'
+        }
+        sixth.onmouseleave = function () {
+            down6[0].style.display = 'none'
+        }
+    }
+
+    eighth.onmouseenter = function () {
+        down8[0].style.display = 'block'
+        down8[0].onmouseenter = function () {
+            down8[0].style.display = 'block'
+        }
+        down8[0].onmouseleave = function () {
+            down8[0].style.display = 'none'
+        }
+        eighth.onmouseleave = function () {
+            down8[0].style.display = 'none'
+        }
+    }
+
+</script>

@@ -12,15 +12,18 @@
 
 #swiper {
     width: 100%;
-    height: 400px;
+    height: 600px;
     background: #042a73
 }
-
+#swiper  img{
+    width: 100%;
+    height: 600px;
+}
 #PolicyTopOne {
     width: 1200px;
     height: 150px;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 170px;
     text-align: center;
     /*background: lightgreen;*/
 }
@@ -110,6 +113,7 @@
     width: 100%;
     height: 550px;
     margin-top: 50px;
+    margin-left: 30px;
     /*background: #888888;*/
 
 }
@@ -120,12 +124,18 @@
     /*background: lightgreen;*/
 }
 #PolicyUnderImg div div{
-    width: 350px;
+    width: 300px;
     height: 150px;
     margin-top: 12.5px;
+    margin-left: 30px;
     float: left;
     /*background: lightblue;*/
 }
+#PolicyUnderImg div div img{
+    width: 300px;
+    height: 150px;
+}
+
 #PolicyUnderImg div div:nth-child(1):hover {
     transform: translateY(-10px);
     transition: all 0.8s;

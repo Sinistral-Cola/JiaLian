@@ -7,7 +7,7 @@ body {
 #back {
     margin: 0 auto;
     width: 100%;
-    height: 380px;
+    height: 480px;
     background-image: url("../img/a.jpg");
     cursor: default;
     background-position: 50% 50%;
@@ -271,7 +271,7 @@ hr{
     width: 99999px;
     height: 200px;
     /*background: chartreuse;*/
-    animation: cooperation 30s linear infinite
+    animation: cooperation 60s linear infinite
 }
 #cooperation>img{
     margin: 15px 15px 0px 15px;

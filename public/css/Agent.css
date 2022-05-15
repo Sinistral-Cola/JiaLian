@@ -17,28 +17,27 @@ p, h1, div, img, body {
 }
 
 .first .first-one {
-    width: 1200px;
-    height: 200px;
+    width: 100%;
+    height: 500px;
     margin: 0 auto;
 }
 
 .first .first-one img {
-    width: 1200px;
-    height: 200px;
-    margin: 0 auto;
+    width: 100%;
+    height: 500px;
 }
 
 .first  .first-one .first-two {
     height: 40px;
     color: #4a82e5;
-    font-size: 24px;
+    font-size: 26px;
     text-align: center;
-    margin-top: -150px;
+    margin-top: -270px;
 }
 .first  .first-one .first-three {
     height: 80px;width: 600px;
     color: #4a82e5;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;margin: 0 auto;
     /*margin-top: -150px;*/
 }
@@ -48,7 +47,7 @@ p, h1, div, img, body {
     width: 100%;
     height: 50px;
     background: #4a82e5;
-    margin: 0 auto;
+    margin: 300px auto 0;
 }
 
 .second-one {

@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../public/css/Animate.css">
     <link rel="stylesheet" href="../public/css/filing.css">
-    <link rel="icon" href="../public/img/logo.ico">
     <link rel="stylesheet" href="../public/css/public.css">
     <script src="../public/js/Jquery.js"></script>
     <title>海外投资-跨境投资备案</title>
@@ -86,55 +85,49 @@
     </div>
 </header>
 <div class="topImg">
-    <img width="100%" height="100%" src="../public/img/2.png" alt="">
+    <img width="100%" height="100%" src="https://20216128.s61i.faiusr.com/2/AD0IwPLRCRACGAAgzrbd7gUojJD53wcwgA84oAY.jpg
+" alt="">
 </div>
+<ul class="content contentBottom">
+    <li class="animated fadeInLeftBig">离岸公司注册</li>
+    <li class="animated fadeInLeftBig">投资路径优化</li>
+    <li class="animated fadeInRightBig">国际商标注册</li>
+    <li class="animated fadeInRightBig">海外上市辅导</li>
+</ul>
 <div class="content">
-    <h2 class="animated fadeInLeftBig">投资路径优化</h2>
-    <h2 class="animated fadeInLeftBig">离岸公司注册</h2>
-    <h2 class="animated fadeInRightBig">国际商标注册</h2>
-    <h2 class="animated fadeInRightBig">海外上市辅导</h2>
     <div>
-        <h1 class="animated bounceIn" align="center">跨境投资备案</h1>
-        <p class="animated bounceIn">为企业提供境外投资政策咨询、可行性研究报告编纂、国别研究及企业境外投资审批的线上线下申报服务</p>
+        <h1 class="animated bounceIn" align="left">跨境投资备案:</h1>
+        <p class="animated bounceIn">
+            为企业提供境外投资政策咨询、可行性研究报告编纂、国别研究及企业境外投资审批的线上线下申报服务        </p>
     </div>
+</div>
 
+<div class="news">
+    <div class="title">海外投资最新新闻</div>
+    <div class="title titleTwo">最新推荐的投资目的地和投资公司</div>
+    <div class="img">
+        <img src="../public/img/111.jpg"  alt="沙迦，中东地区首选投资目的地">
+    </div>
+    <ul class="animated bounceIn">
+        <li>西班牙果蔬展Fruit Attraction 2022展商报名已启动</li>
+        <li>沙迦酋长批准2022年344.22亿迪拉姆的预算</li>
+        <li>阿联酋计划到2030年将经济规模从1.4万亿迪</li>
+        <li>沙迦经济局在2021 年签发及续签61130份许可</li>
+        <li>沙迦经济局在2021 年签发及续签61130份许可</li>
+        <li>沙迦出版城自贸区推出优惠商业套餐</li>
+    </ul>
+    <ul class="present">
+        <div><span>摩洛哥投资发展署</span><img src="../public/img/2.jpg" alt=""></div>
+        <div><span>摩洛哥投资发展署</span><img src="../public/img/222.jpg" alt=""></div>
+    </ul>
 </div>
-<div id="footer">
-    <p>外贸综合服务</p>
-</div>
-<div id="goBack">
-    <img src="../public/img/返回顶部.png" alt="" style="height: 78px;width: 78px">
-</div>
+
+
+
 </body>
 </html>
 <script>
-    var topBtn = document.getElementById('goBack');
-    // 获取视窗高度
-    var winHeight = document.documentElement.clientHeight;
-    window.onscroll = function () {
-        // 获取页面向上滚动距离，chrome浏览器识别document.body.scrollTop，而火狐识别document.documentElement.scrollTop，这里做了兼容处理
-        var toTop = document.documentElement.scrollTop || document.body.scrollTop;
-        // 如果滚动超过一屏，返回顶部按钮出现，反之隐藏
-        if (toTop >= winHeight - 800) {
-            topBtn.style.display = 'block';
-        } else {
-            topBtn.style.display = 'none';
-        }
-    }
-    topBtn.onclick = function () {
-        var timer = setInterval(function () {
-            var toTop = document.documentElement.scrollTop || document.body.scrollTop;
-            // 判断是否到达顶部，到达顶部停止滚动，没到达顶部继续滚动
-            if (toTop == 0) {
-                clearInterval(timer);
-            } else {
-                // 设置滚动速度
-                var speed = Math.ceil(toTop / 8);
-                // 页面向上滚动
-                document.documentElement.scrollTop = document.body.scrollTop = toTop - speed;
-            }
-        }, 20);
-    }
+
     $(function () {
         $(window).scroll(function () {
             if ($(document).scrollTop() > 0) {

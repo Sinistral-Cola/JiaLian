@@ -1,7 +1,11 @@
 $(function () {
-    $(".contentMiddleOne>ul>li").addClass('animated fadeInRightBig')
-    $(".contentMiddleTwo>ul>li").addClass('animated fadeInLeftBig')
-    $(".contentMiddleTwo>div").addClass('animated fadeInRightBig')
-    $(".contentMiddleThree>ul>li").addClass('animated fadeInRightBig')
-    $(".contentMiddleThree>div").addClass('animated fadeInLeftBig ')
+    $('#dongHua').hover(
+        function () {
+            $('#dongHua ul').css('animation-play-state','paused')
+        },
+        function () {
+            $('#dongHua ul').css('animation-play-state','running')
+        }
+    )
+
 })

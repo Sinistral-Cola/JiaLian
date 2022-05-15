@@ -91,10 +91,12 @@
 </header>
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="https://12493870.s61i.faiusr.com/2/AD0Irsj6BRACGAAgv-GQywUowPqHvQYw-g44vAU.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="https://12493870.s61i.faiusr.com/2/AD0Irsj6BRACGAAgrPOQywUohvqdrgYw-g44vAU.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="https://20228233.s61i.faiusr.com/2/AD0IidHSCRACGAAg0p706gUokfOwhwYwgA842AQ.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="../public/img/S1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="../public/img/S2.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="../public/img/S3.jpg" alt=""></div>
     </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
 </div>
 <div class="second">
     <div class="second-one">
@@ -307,7 +309,9 @@
 <!--<div id="footer">-->
 <!--    <p>外贸综合服务</p>-->
 <!--</div>-->
-<div id="goBack">
+<div class="seven">
+    <img src="../public/img/供应商a.png"></div>
+<div id="goBack"  style="position: fixed; bottom: 100px">
     <img src="../public/img/返回顶部.png" alt="" style="height: 78px;width: 78px">
 </div>
 </body>
@@ -347,6 +351,7 @@
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+        loop:true
     })
 
     $(window).scroll(function () {

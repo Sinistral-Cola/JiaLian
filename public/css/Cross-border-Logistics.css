@@ -13,12 +13,12 @@ p, h1, div, img, body {
 .swiper-container{
     margin: 0 auto;
     background: #4a82e5;
-    height: 405px;
+    height: 500px;
     width: 100%;
 }
 
 .swiper-slide img {
-    height: 400px;
+    height: 500px;
     width: 100%;
     margin: 0 auto;
 }
@@ -180,26 +180,6 @@ p, h1, div, img, body {
     font-size: 16px;
     margin: 0 auto;
 }
-.liuCheng{
-    width: 1200px;height: 200px;
-    /*background: #ffa500;*/
-    margin: 0 auto;
-display: flex;justify-content: space-between;
-}
-.liuCheng-one{
-    width: 190px;height: 80px;background: #eeeeee;
-    border-radius: 40px;
-}
-.liuCheng-one p{
-    color: #0459f3;text-align: center;line-height: 40px;
-    font-size: 18px;
-}
-.liuCheng:hover p{
-    color: white;
-}
-.liuCheng:hover .liuCheng-one{
-    background-color: #3375f5;
-}
 
 
 
@@ -245,7 +225,46 @@ display: flex;justify-content: space-between;
 
 
 
+.liuCheng{
+    width: 1400px;height: 200px;
+    /*background: #ffa500;*/
+    margin: 0 auto;
+    display: flex;justify-content: space-between;
+}
+.liuCheng-one{
+    width:230px;height: 80px;background: #eeeeee;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.liuCheng-one p{
+    color: #0459f3;text-align: center;
+    font-size: 16px;line-height: 80px;border-radius: 40px;
+}
 
+#a:hover p{
+    background: #4a82e5;
+    color: white;
+}
+#b:hover p{
+    background: #4a82e5;
+    color: white;
+}
+#c:hover p{
+    background: #4a82e5;
+    color: white;
+}
+#d:hover p{
+    background: #4a82e5;
+    color: white;
+}
+#e:hover p{
+    background: #4a82e5;
+    color: white;
+}
+#f:hover p{
+    background: #4a82e5;
+    color: white;
+}
 
 
 

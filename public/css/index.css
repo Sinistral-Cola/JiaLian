@@ -29,7 +29,7 @@ footer {
 
 .swiper-wrapper {
     width: 100%;
-    height: 600px;
+    height: 630px;
     margin: 0 auto;
     z-index: -3;
 }
@@ -98,6 +98,7 @@ footer {
     height: 600px;
     background: #fff;
     margin: 0 auto;
+    text-align: center;
     padding: 0 20px;
 
 }
@@ -108,7 +109,12 @@ footer {
     font-weight: bold;
     font-size: 20px;
 }
-
+.news > .newsBox > .title >h2 {
+    text-align: center;
+    color: #042a73;
+    font-weight: bold;
+    font-size: 30px;
+}
 .news > .newsBox > .title > div {
     width: 60px;
     height: 4px;
@@ -126,14 +132,17 @@ footer {
 
 .news > .newsBox > .content > .news-content {
     width: 450px;
-    height: 300px;
-    background: pink;
+    height: 350px;
+    /*background: pink;*/
     float: left;
     margin-left: 100px;
     margin-top: 100px;
     padding-top: 20px;
 }
-
+.news > .newsBox > .content > .news-content img {
+    width: 450px;
+    height: 350px;
+}
 .news > .newsBox > .content > .news-content > p:nth-child(1) {
     text-align: center;
     font-size: 17px;
@@ -160,6 +169,57 @@ footer {
     width: 78px;
     height: 78px;
     position: fixed;
-    bottom:450px;
+    bottom:430px;
     right: 0;
+    display: none;
+}
+
+.third{
+    width: 400px;
+    height: 260px;
+    background: rgba(255, 255, 255, 0.22);
+    position:absolute;
+    top:190px;
+    right: 30px;
+    z-index: 2;
+
+}
+.second {
+    width: 280px;
+    height: 250px;
+    /*background: #4a82e5;*/
+    margin:0 auto;
+    padding-top: 30px;position: relative;
+    z-index: 2;
+}
+.four{
+    width: 1400px;
+    height: 400px;
+    background: #4a82e5;
+    margin: 120px auto;
+}
+.four img{
+    width: 1400px;
+    height: 400px;
+}
+.four-one{
+    height: 50px;width: 800px;text-align: center;margin: -340px auto 0;
+    color: white;font-size: 30px;
+}
+.four-two{
+    height: 50px;width: 800px;text-align: center;margin: 20px auto 0;
+    color: white;font-size: 20px;
+}
+.four .four-three{
+    width: 1200px;
+    margin: 20px   auto 0;
+    /*background: #ffa500;*/
+    height: 230px;display: flex;justify-content: space-around;
+
+}
+.four-four{
+    width: 100px;
+    height: 100px;border: 4px white solid;
+    line-height: 100px;text-align: center;border-radius: 50px;
+    font-size: 18px;color: white;
 }
