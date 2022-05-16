@@ -49,6 +49,23 @@ footer {
 }
 
 
+
+.beforeFirst{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    /*border: #ffa500 1px solid;*/
+}
+.beforeFirst p{
+    font-size: 34px;
+    color: #4a82e5;margin-top: 40px;
+    font-weight: bold;text-align: center;
+}
+.beforeFirst hr{
+    width: 400px;border: 0.5px #4a82e5 solid;
+    margin: 10px auto 0;
+}
+
 .first {
     width: 1200px;
     height:370px;
@@ -143,17 +160,21 @@ footer {
     width: 450px;
     height: 350px;
 }
+
 .news > .newsBox > .content > .news-content > p:nth-child(1) {
-    text-align: center;
-    font-size: 17px;
+    text-align:left;
+    font-size:24px;
     color: #042a73;
     font-weight: bold;
+
 }
 
 .news > .newsBox > .content > .news-content > p:nth-child(2) {
     float: right;
     font-size: 12px;
     color: #042a73;
+    margin-right:80px;
+    /*margin-top: -30px;*/
 }
 
 .news > .newsBox > .content > .news-content > p:nth-child(4) {
@@ -161,9 +182,12 @@ footer {
     color: #666666;
 }
 
-.news > .newsBox > .content > .news-content > span {
+.news > .newsBox > .content > .news-content  span {
     font-size: 14px;
     color: black;
+}
+.news > .newsBox > .content > .news-content{
+    text-align: left;
 }
 #goBack {
     width: 78px;
