@@ -34,6 +34,7 @@ p, h1, div, img, body {
     text-align: center;
     margin-top: -270px;
 }
+
 .first  .first-one .first-three {
     height: 80px;width: 600px;
     color: #4a82e5;
@@ -41,7 +42,6 @@ p, h1, div, img, body {
     text-align: center;margin: 0 auto;
     /*margin-top: -150px;*/
 }
-
 
 .second {
     width: 100%;
@@ -133,6 +133,7 @@ p, h1, div, img, body {
     font-size: 24px;
     color: #4a82e5;
 }
+
 .third-three{
     font-size: 14px;
     color: #4a82e5;

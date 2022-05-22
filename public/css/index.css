@@ -49,26 +49,30 @@ footer {
 }
 
 
-
-.beforeFirst{
+.beforeFirst {
     width: 1200px;
     height: 100px;
     margin: 0 auto;
     /*border: #ffa500 1px solid;*/
 }
-.beforeFirst p{
+
+.beforeFirst p {
     font-size: 34px;
-    color: #4a82e5;margin-top: 40px;
-    font-weight: bold;text-align: center;
+    color: #4a82e5;
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
 }
-.beforeFirst hr{
-    width: 400px;border: 0.5px #4a82e5 solid;
+
+.beforeFirst hr {
+    width: 400px;
+    border: 0.5px #4a82e5 solid;
     margin: 10px auto 0;
 }
 
 .first {
     width: 1200px;
-    height:370px;
+    height: 370px;
     /*background: #12adb8;*/
     margin: 0 auto;
     display: flex;
@@ -88,18 +92,19 @@ footer {
     margin-left: 40px;
 }
 
-.first-two{
+.first-two {
     text-align: center;
     color: #014a82;
     font-size: 24px;
     margin: 10px 0;
 }
 
-.first-three{
+.first-three {
     text-align: center;
-    color:  #014a82;
+    color: #014a82;
     font-size: 14px;
-    width: 260px;margin: 10px auto 0;
+    width: 260px;
+    margin: 10px auto 0;
 }
 
 
@@ -126,12 +131,14 @@ footer {
     font-weight: bold;
     font-size: 20px;
 }
-.news > .newsBox > .title >h2 {
+
+.news > .newsBox > .title > h2 {
     text-align: center;
     color: #042a73;
     font-weight: bold;
     font-size: 30px;
 }
+
 .news > .newsBox > .title > div {
     width: 60px;
     height: 4px;
@@ -144,7 +151,7 @@ footer {
     width: 100%;
     height: 500px;
     /*background: red;*/
-    margin: 0 auto;
+    margin: -100px auto 0;
 }
 
 .news > .newsBox > .content > .news-content {
@@ -156,14 +163,15 @@ footer {
     margin-top: 100px;
     padding-top: 20px;
 }
+
 .news > .newsBox > .content > .news-content img {
     width: 450px;
-    height: 350px;
+    height: 350px;  margin-top: -40px;
 }
 
 .news > .newsBox > .content > .news-content > p:nth-child(1) {
-    text-align:left;
-    font-size:24px;
+    text-align: left;
+    font-size: 24px;
     color: #042a73;
     font-weight: bold;
 
@@ -173,7 +181,7 @@ footer {
     float: right;
     font-size: 12px;
     color: #042a73;
-    margin-right:80px;
+    margin-right: 80px;
     /*margin-top: -30px;*/
 }
 
@@ -182,68 +190,613 @@ footer {
     color: #666666;
 }
 
-.news > .newsBox > .content > .news-content  span {
+.news > .newsBox > .content > .news-content span {
     font-size: 14px;
     color: black;
 }
-.news > .newsBox > .content > .news-content{
+
+.news > .newsBox > .content > .news-content {
     text-align: left;
 }
+
 #goBack {
     width: 78px;
     height: 78px;
     position: fixed;
-    bottom:430px;
+    bottom: 430px;
     right: 0;
     display: none;
 }
 
-.third{
+.third {
     width: 400px;
     height: 260px;
     background: rgba(255, 255, 255, 0.22);
-    position:absolute;
-    top:190px;
+    position: absolute;
+    top: 190px;
     right: 30px;
     z-index: 2;
 
 }
+
 .second {
     width: 280px;
     height: 250px;
     /*background: #4a82e5;*/
-    margin:0 auto;
-    padding-top: 30px;position: relative;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: relative;
     z-index: 2;
 }
-.four{
-    width: 1400px;
+
+.four {
+    width: 1200px;
     height: 400px;
     background: #4a82e5;
     margin: 120px auto;
 }
-.four img{
-    width: 1400px;
+
+.four img {
+    width: 1200px;
     height: 400px;
 }
-.four-one{
-    height: 50px;width: 800px;text-align: center;margin: -340px auto 0;
-    color: white;font-size: 30px;
+
+.four-one {
+    height: 50px;
+    width: 800px;
+    text-align: center;
+    margin: -340px auto 0;
+    color: white;
+    font-size: 30px;
 }
-.four-two{
-    height: 50px;width: 800px;text-align: center;margin: 20px auto 0;
-    color: white;font-size: 20px;
+
+.four-two {
+    height: 50px;
+    width: 800px;
+    text-align: center;
+    margin: 20px auto 0;
+    color: white;
+    font-size: 20px;
 }
-.four .four-three{
+
+.four .four-three {
     width: 1200px;
-    margin: 20px   auto 0;
+    margin: 20px auto 0;
     /*background: #ffa500;*/
-    height: 230px;display: flex;justify-content: space-around;
+    height: 230px;
+    display: flex;
+    justify-content: space-around;
 
 }
-.four-four{
+
+.four-four {
     width: 100px;
-    height: 100px;border: 4px white solid;
-    line-height: 100px;text-align: center;border-radius: 50px;
-    font-size: 18px;color: white;
+    height: 100px;
+    border: 4px white solid;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    color: white;
 }
+
+
+/*电商，跨境css样式*/
+#DianShang {
+    width: 1200px;
+    margin: 100px auto 0;
+}
+
+#DianShang .title {
+    font-size: 30px;
+    text-align: center;
+}
+
+#DianShang .title + p {
+    text-align: center;
+}
+.moreTwo{
+    margin: 10px 0 20px;
+    color: #222222;
+    text-decoration: none;
+}
+
+#DianShang > ul {
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#DianShang > ul > li {
+    padding: 30px 20px;
+    list-style: none;
+    width: 250px;
+    height: 250px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 32px rgba(0 0 0  .1);
+}
+#DianShang > ul :hover{
+    transform: scale(1.02);
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+#DianShang > ul a:hover,
+.moreTwo:hover{
+    color: #007aff;
+}
+.minTitle {
+    color: #007aff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.more {
+    float: right;
+    margin-right: 30px;
+}
+
+.more a {
+    color: #232f3e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.minTitle + p {
+    color: #6c7778;
+    font-size: 14px;
+}
+
+#DianShang > ul > li > img {
+    width: 60px;
+    height: 60px;
+}
+
+#system, #system {
+    margin: 0 auto;
+    width: 1200px;
+    height: 550px;
+    background: rgb(241, 245, 248);
+    overflow: hidden;
+    position: relative;
+}
+
+#system > div:first-child {
+    width: 300px;
+    height: 100%;
+    float: left;
+    margin: 100px 0 0 50px;
+}
+
+#system > .dsBg {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    width: 790px;
+    height: 500px;
+    background: url("../img/跨境电商服务-02.svg");
+    background-size: 100% 100%;
+}
+
+#system > div > .title {
+    font-size: 30px;
+    color: #000;
+}
+
+
+#system > div > .title + p {
+    padding-left: 10px;
+    margin: 20px 0;
+    line-height: 22px;
+    display: block;
+    border-left: 5px solid #007aff;
+}
+
+
+#system .message a {
+    display: inline-block;
+    width: 150px;
+    height: 38px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 38px;
+    background: #007aff;
+    border-radius: 5px;
+}
+
+
+#system > .message a:hover {
+    box-shadow: 2px 2px 2px 0 lightgrey;
+}
+
+#system > div:first-child {
+    width: 300px;
+    height: 100%;
+    float: right;
+    margin: 100px 0 0 50px;
+}
+
+#system > div:last-child {
+    float: left;
+    margin-left: 10px;
+    width: 790px;
+    height: 500px;
+    background: url("../img/1退税.jpeg");
+    background-size: 100% 100%;
+}
+
+
+
+
+/*供应链服务，金融服务*/
+.Cross {
+    font-size: 30px;
+    text-align: center;
+    color: #007ff3;
+    margin-top: 100px;
+}
+
+.Cross a{
+    text-decoration: none;
+}
+.Cross hr {
+    border: .5px #007ff3 solid;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.Cross-border {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto ;
+    /*background: salmon;*/
+}
+
+.Cross-border-first {
+    width: 1200px;
+    height: 240px;
+    /*background: aqua;*/
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.border-first-one {
+    width: 340px;
+    height: 100%;
+    background: yellow;
+}
+
+.border-first-one img {
+    width: 100%;
+    height: 100%;
+}
+
+.border-first-second {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #00060e;
+    margin-top: -200px;
+}
+
+#Cross-border-first {
+    opacity: 0;
+}
+
+@keyframes yi {
+    from {
+        opacity: 0;
+    }
+    .3% {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.border-first-three {
+    /*background: #0797f5;*/
+    width: 100%;
+    height: 136px;
+    z-index: 2;
+    background: #0797f5;
+    position: relative;
+    opacity: 0;
+    color: white;
+    text-align: center;
+}
+
+.border-first-second p {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#border-nine:hover #border-nine-son {
+    animation: yi 300s linear infinite;
+}
+
+#border-eight:hover #border-eight-son {
+    animation: yi 300s linear infinite;
+}
+
+#border-seven:hover #border-seven-son {
+    animation: yi 300s linear infinite;
+}
+
+#border-six:hover #border-six-son {
+    animation: yi 300s linear infinite;
+}
+
+#border-five:hover #border-five-son {
+    animation: yi 300s linear infinite;
+}
+
+#border-four:hover #border-four-son {
+    animation: yi 300s linear infinite;
+}
+
+#border-three:hover #border-three-son {
+    animation: yi 300s linear infinite;
+}
+
+#border-two:hover #border-two-son {
+    animation: yi 300s linear infinite;
+}
+
+#border-one:hover #border-one-son {
+    animation: yi 300s linear infinite;
+}
+
+.Cross-border-first:hover a{
+    text-decoration: none;
+}
+
+
+
+
+/*海外投资*/
+a{text-decoration: none}
+
+.overseas-investment {
+    width: 1400px;
+    height: 700px;
+    /*background: lavender;*/
+    margin: 100px auto 0;
+}
+
+.overseas-investment > h1 {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
+.overseas-investment > h1 > a {
+    text-decoration: none;
+    color: #007aff;
+    padding: 15px;
+}
+
+.overseas-investment > .bar {
+    width: 80px;
+    margin: 0 auto 5px;
+    background: red;
+    border-top: 4px solid #007aff;
+    border-radius: 3px;
+
+}
+
+/*.overseas-investment > .bar:hover {
+    width: 100px;
+}*/
+.overseas-investment:hover .bar {
+    animation: change 1s ease;
+}
+
+@keyframes change {
+    0% {
+        width: 80px
+    }
+    50% {
+        width: 200px
+    }
+    100% {
+        width: 80px
+    }
+
+}
+
+.content {
+    width: 1300px;
+    height: 250px;
+    padding-top: 50px;
+    background: rgba(62, 191, 299, 0.05);
+    margin: 0 auto;
+}
+
+
+
+.content > .imgBox {
+    width: 300px;
+    height: 200px;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    border: 1px solid #ebebeb;
+}
+
+.content > .imgBox:hover {
+    cursor: pointer;
+    transform: scale(1.04, 1.04)
+}
+
+.content > .imgBox1 {
+    margin-left: 230px;
+}
+
+.content > .imgBox > img {
+    /*width: 400px;*/
+    height: 200px;
+    background: #fff;
+}
+
+.content > a {
+    float: left;
+    margin-left: -205px;
+    margin-top: 205px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #3366ff;
+    font-weight: bold;
+}
+
+.content > a:hover {
+    text-decoration: none;
+}
+
+.imgBox a:hover{
+    text-decoration: none;
+}
+
+/*基础服务*/
+
+#JiChu {
+    width: 1200px;
+    height: 500px;
+    margin: 100px auto 0;
+    /*background: lightpink;*/
+}
+
+@keyframes zhuan {
+    from {
+        transform: rotate(0);
+
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fanZhuan {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0);
+    }
+}
+
+#JiChuLeft {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*background: lightgreen;*/
+    float: left;
+    animation: zhuan 10s linear 1s infinite;
+}
+
+#JiChuLeft:hover {
+    animation-play-state: paused;
+}
+
+#JiChuLeft div {
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: #f1f5fe;
+    animation: fanZhuan 10s linear 1s infinite;
+}
+#JiChuLeft div:hover {
+    animation-fill-mode : forwards;
+}
+#JiChuRight{
+    width: 650px;
+    height: 500px;
+    float: right;
+    text-align: center;
+    /*background: lightblue;*/
+}
+#JiChuRight p{
+    font-size: 24px;
+    margin: 25px 0;
+}
+#JiChuRight span{
+    margin: 25px 0;
+}
+
+
+/*关于我们*/
+
+#about {
+    margin: 100px auto 0;
+    width: 1200px;
+    height: 500px;
+    /*background: #b7f399;*/
+    text-align: center;
+}
+
+#about #A {
+    font-size: 20px;
+    color: rgb(204, 204, 204);
+
+}
+
+#about #B {
+    font-size: 20px;
+    color: rgb(204, 204, 204);
+
+}
+
+#about span {
+    padding: 10px;
+    font-size: 35px;
+}
+
+#about #C {
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(204, 204, 204);
+}
+
+#about #words {
+    margin: 30px auto 0;
+    width: 1000px;
+    height: 100px;
+    /*background: red;*/
+    font-size: 14px;
+}
+
+#about #words span {
+    font-size: 14px;
+    line-height: 25px;
+    float: left;
+}
+#about #Photo{
+    margin:60px auto 0;
+    width: 1200px;
+    height: 270px;
+    /*background:blue;*/
+    display: flex;
+    justify-content: space-around;
+}
+#about #Photo .AA{
+    width: 200px;
+    height: 270px;
+    /*background: #1E50AE;*/
+    overflow: hidden;
+}
+#about #Photo .AA img:hover{
+    transform: scale(1.12);
+    transition: all .8s;
+}
+
